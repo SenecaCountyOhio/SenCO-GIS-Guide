@@ -1,13 +1,15 @@
 # Seneca County Land Code Dataset
 
-##### Author
+#### Author
 Brendan Cullen  
 GIS Programmer/Analyst  
 Seneca County Auditor’s Office  
 October 2019
 
 ## Purpose
-The purpose of this paper is to provide documentation of Seneca County’s Land Dataset and outline improvements made to the structure and maintenance of the dataset in 2019.
+The purpose of this paper is to provide documentation of Seneca County’s Land
+Dataset and outline improvements made to the structure and maintenance of the
+dataset in 2019.
 
 ## Background
 Land information (i.e. the cover and use of land) is vital to the daily
@@ -53,8 +55,8 @@ similar yet independent land information. The layers can then be combined in
 order to build a single dataset for property valuation. Figure 2 outlines the
 individual land dataset’s types, codes, and descriptions.
 
-*The General Land Code layer acts as the intial base all other Land Programs are
-added upon.*
+**The General Land Code layer acts as the intial base all other Land Programs
+are added upon.**
 
 ```
 Example: A farm in the CAUV program could have wetlands, half of which are under
@@ -75,8 +77,8 @@ contain a feature class named “Land_General” and a feature class named
 “Land_Programs”. The tool will output a feature class to the Geodatabase named
 “Land_Combined”.
 
-*Only the Land_Combined layer should be used when assessing a property and should
-never be directly edited.*
+**Only the Land_Combined layer should be used when assessing a property and
+should never be directly edited.**
 
 Edits should only be made to the Land_General or
 Land_Programs layers. Figure 3 provides descriptions of the fields in the
@@ -85,45 +87,75 @@ Land_General and Land_Programs feature classes;
 ## Dataset Integrity
 The dataset currently has a few inaccuracies that should be identified.
 
-1. The Land_Programs layer is missing a lot of vital information and has not be regularly maintained to the proper standards.
-2. Due to how the dataset was maintained previously, a lot of general land information was lost when a land program was mapped. All land under a land program should be re-mapped according to the Land_General standards.
-3. A process to more accurately represent
-residential properties should be investigated.
-4. No current system in place to
-validate Conservation Practices 25%.
+1. The Land_Programs layer is missing a lot of vital information and has not be
+regularly maintained to the proper standards.
+2. Due to how the dataset was maintained previously, a lot of general land
+information was lost when a land program was mapped. All land under a land
+program should be re-mapped according to the Land_General standards.
+3. A process to more accurately represent residential properties should be
+investigated.
+4. No current system in place to validate Conservation Practices 25%.
 
 ## Discussion & Conclusion
-Thanks to the hard work of many individuals with Seneca County, a very accurate land dataset has been developed. With this new workflow, the dataset’s overall integrity will improve, and the dataset will continue to be efficiently maintained. As regulations by the State of Ohio or the needs of the Auditor’s Office change, this dataset can be adjusted without having to manipulate this new workflow.
+Thanks to the hard work of many individuals with Seneca County, a very accurate
+land dataset has been developed. With this new workflow, the dataset’s overall
+integrity will improve, and the dataset will continue to be efficiently
+maintained. As regulations by the State of Ohio or the needs of the Auditor’s
+Office change, this dataset can be adjusted without having to manipulate this
+new workflow.
+
 ## Figures
 #### Figure 1 – Old Land Use Types, Codes, & Descriptions
 
 |LAND USE|LAND CODE|DESCRIPTION|
 |--------|:---------:|-----------|
-|Animal Husbandry|3|Buildings or Structures that House Animals for a Commercial purpose. Science of breeding and caring for Farm Animals.|
-|Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Conservation Practice 25%|24|Practice use of grass waterways, terraces, diversions, filter strips, field borders, windbreaks, riparian buffers, wetlands, ponds, and cover crops for that purpose to abate soil erosion VIA O.R.C.|
-|Conservation Program Designated|23|Land in Federal or State Conservation Program (Ex: FSA Program).|
-|Cropland|2|Land that is being 'Cropped', and not vacant of crop for more than 3 years.|
-|Cropland Default|2|Land that is lumped into being considered as Cropland for lack of a better use or explanation - usually areas between fields or long narrow spaces.|
+|Animal Husbandry|3|Buildings or Structures that House Animals for a Commercial
+purpose. Science of breeding and caring for Farm Animals.|
+|Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual
+or Homesite - To be broken down into Primary/Secondary Site.|
+|Conservation Practice 25%|24|Practice use of grass waterways, terraces,
+diversions, filter strips, field borders, windbreaks, riparian buffers,
+wetlands, ponds, and cover crops for that purpose to abate soil erosion VIA
+O.R.C.|
+|Conservation Program Designated|23|Land in Federal or State Conservation
+Program (Ex: FSA Program).|
+|Cropland|2|Land that is being 'Cropped', and not vacant of crop for more than 3
+years.|
+|Cropland Default|2|Land that is lumped into being considered as Cropland for
+lack of a better use or explanation - usually areas between fields or long
+narrow spaces.|
 |Designated Forest Land|0|Woodland that is in a Federal Program.|
-|Ditch/Hydrography|5|Land devoted to waterway, Ditch Buffer 50, Stream or River Buffer 60-70.|
+|Ditch/Hydrography|5|Land devoted to waterway, Ditch Buffer 50, Stream or River
+Buffer 60-70.|
 |Homesite|1|Homesite = 1 Acre, Ag Parcels.|
-|Industrial|7|Land with Class I, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Lot - Apartment|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Lot - Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Lot - Exempt|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Industrial|7|Land with Class I, Not Residual or Homesite - To be broken down
+into Primary/Secondary Site.|
+|Lot - Apartment|6|Land with Class C/ or Land that is used Commercially, Not
+Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Lot - Commercial|6|Land with Class C/ or Land that is used Commercially, Not
+Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Lot - Exempt|6|Land with Class C/ or Land that is used Commercially, Not
+Residual or Homesite - To be broken down into Primary/Secondary Site.|
 |Lot - Residential|1|Homesite = 1 Acre, Ag Parcels.|
 |Pasture|3|Visible Land used for livestock - Determination to follow.|
 |Pond|5|Body of water, Recreational or Agricultural.|
-|Primary Site|6|Primary Site, used in Industrial and Commercial Class parcels. Currently used for distinguishing multi use soil parcels.|
-|Primary Site|6|Primary Location for Main Concentration of Commercial or Industrial Involvement (Headquarters).|
+|Primary Site|6|Primary Site, used in Industrial and Commercial Class parcels.
+Currently used for distinguishing multi use soil parcels.|
+|Primary Site|6|Primary Location for Main Concentration of Commercial or
+Industrial Involvement (Headquarters).|
 |Rail Road|9|Property owned by Rail Company, no other use.|
-|Residential Homesite|1|Parcels Under 5 Ac may have Homesite < 1 ac -- Residential Non Ag Parcels.|
-|Residual|2|Excess Land comprised of secondary buildings, maintained yard, and or drive.|
-|Right Of Way|9|Road Right Of Way - Possibly be removed from Residential Parcels.|
-|Secondary Site|7|Secondary Location for Main Concentration of Commercial or Industrial Involvement (WorkSite).|
-|Undeveloped Land|2|Undeveloped Land that is not Residual that could otherwise be used for another purpose other than vacant Undeveloped.|
-|Wetland/ Wasteland|5|Land that normally collects excess water and is unable to yield Crop, Land Unable to be used due to slope or another factor.|
+|Residential Homesite|1|Parcels Under 5 Ac may have Homesite < 1 ac --
+Residential Non Ag Parcels.|
+|Residual|2|Excess Land comprised of secondary buildings, maintained yard, and
+or drive.|
+|Right Of Way|9|Road Right Of Way - Possibly be removed from Residential
+Parcels.|
+|Secondary Site|7|Secondary Location for Main Concentration of Commercial or
+Industrial Involvement (WorkSite).|
+|Undeveloped Land|2|Undeveloped Land that is not Residual that could otherwise
+be used for another purpose other than vacant Undeveloped.|
+|Wetland/ Wasteland|5|Land that normally collects excess water and is unable to
+yield Crop, Land Unable to be used due to slope or another factor.|
 |Woodland|4|Land comprised of mainly Forest, not wind breaks.|
 |Woodland- FMP|4|Woodland in a Forest Management Plan.|
 
@@ -132,12 +164,17 @@ General Land Cover Types:
 
 | Land Cover |	Code | Description |
 | ---------- | ----- | ----------- |
-| Homesite | 1 | The plot of land on which a house is or can be built. Homesite = 1 Acre. Parcels Under 5 Ac may have Homesite < 1 Acre. |
-| Tillable	| 2	| Land that is visibly cleared and used for agriculture or could be used for agriculture. |
+| Homesite | 1 | The plot of land on which a house is or can be built. Homesite
+= 1 Acre. Parcels Under 5 Ac may have Homesite < 1 Acre. |
+| Tillable	| 2	| Land that is visibly cleared and used for agriculture or could
+be used for agriculture. |
 | Woodland	| 4	| Land comprised of mainly Forest, not wind breaks. |
-| Ditch/Hydrography	| 5	| Land comprised of primarily water features (Ex: Ditch, River, Stream, Pond, Wetland, Wasteland). |
-| Primary Site | 	6	| Primary Location for Main Concentration of Commercial or Industrial Involvement. |
-| Secondary Site | 	7	| Secondary Location for Main Concentration of Commercial or Industrial Involvement. |
+| Ditch/Hydrography	| 5	| Land comprised of primarily water features (Ex: Ditch,
+River, Stream, Pond, Wetland, Wasteland). |
+| Primary Site | 	6	| Primary Location for Main Concentration of Commercial or
+Industrial Involvement. |
+| Secondary Site | 	7	| Secondary Location for Main Concentration of Commercial
+or Industrial Involvement. |
 | Right of Way	| 9	| Road or Rail Right of Way. |
 
 Land Program Types:
@@ -145,8 +182,12 @@ Land Program Types:
 | Land Cover |	Code | Description |
 | ---------- | ----- | ----------- |
 | Designated Forest Land	| 0	| Woodland that is in a Federal Program. |
-| Conservation Program Designated	| 23 | Land in Federal or State Conservation Program. |
-| Conservation Practice 25%	| 24	| Practice use of grass waterways, terraces, diversions, filter strips, field borders, windbreaks, riparian buffers, wetlands, ponds, and cover crops for that purpose to abate soil erosion. (VIA O.R.C.) |
+| Conservation Program Designated	| 23 | Land in Federal or State Conservation
+Program. |
+| Conservation Practice 25%	| 24	| Practice use of grass waterways, terraces,
+diversions, filter strips, field borders, windbreaks, riparian buffers,
+wetlands, ponds, and cover crops for that purpose to abate soil erosion. (VIA
+O.R.C.) |
 | Woodland – FMP	| 4	| Woodland in a Forest Management Plan. |
 
 
