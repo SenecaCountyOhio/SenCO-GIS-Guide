@@ -1,4 +1,3 @@
-
 # Seneca County GeoLibrary
 #### Author:
 Brendan Cullen  
@@ -13,7 +12,7 @@ document the various Geographic Information relevant to the county. The
 GeoLibrary can serve as the main GIS data and map storage repository for the
 county.
 
-The second goal is to make all the information in the GeoLibrary
+A secondary goal is to make all the information in the GeoLibrary
 available to the public and other departments through ArcGIS Hub.
 
 
