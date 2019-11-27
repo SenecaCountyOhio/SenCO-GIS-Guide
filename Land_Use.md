@@ -109,53 +109,31 @@ new workflow.
 
 |LAND USE|LAND CODE|DESCRIPTION|
 |--------|:---------:|-----------|
-|Animal Husbandry|3|Buildings or Structures that House Animals for a Commercial
-purpose. Science of breeding and caring for Farm Animals.|
-|Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual
-or Homesite - To be broken down into Primary/Secondary Site.|
-|Conservation Practice 25%|24|Practice use of grass waterways, terraces,
-diversions, filter strips, field borders, windbreaks, riparian buffers,
-wetlands, ponds, and cover crops for that purpose to abate soil erosion VIA
-O.R.C.|
-|Conservation Program Designated|23|Land in Federal or State Conservation
-Program (Ex: FSA Program).|
-|Cropland|2|Land that is being 'Cropped', and not vacant of crop for more than 3
-years.|
-|Cropland Default|2|Land that is lumped into being considered as Cropland for
-lack of a better use or explanation - usually areas between fields or long
-narrow spaces.|
+|Animal Husbandry|3|Buildings or Structures that House Animals for a Commercial purpose. Science of breeding and caring for Farm Animals.|
+|Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Conservation Practice 25%|24|Practice use of grass waterways, terraces, diversions, filter strips, field borders, windbreaks, riparian buffers, wetlands, ponds, and cover crops for thatpurpose to abate soil erosion VIA O.R.C.|
+|Conservation Program Designated|23|Land in Federal or State Conservation Program (Ex: FSA Program).|
+|Cropland|2|Land that is being 'Cropped', and not vacant of crop for more than 3 years.|
+|Cropland Default|2|Land that is lumped into being considered as Cropland for lack of a better use or explanation - usually areas between fields or long narrow spaces.|
 |Designated Forest Land|0|Woodland that is in a Federal Program.|
-|Ditch/Hydrography|5|Land devoted to waterway, Ditch Buffer 50, Stream or River
-Buffer 60-70.|
+|Ditch/Hydrography|5|Land devoted to waterway, Ditch Buffer 50, Stream or River Buffer 60-70.|
 |Homesite|1|Homesite = 1 Acre, Ag Parcels.|
-|Industrial|7|Land with Class I, Not Residual or Homesite - To be broken down
-into Primary/Secondary Site.|
-|Lot - Apartment|6|Land with Class C/ or Land that is used Commercially, Not
-Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Lot - Commercial|6|Land with Class C/ or Land that is used Commercially, Not
-Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Lot - Exempt|6|Land with Class C/ or Land that is used Commercially, Not
-Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Industrial|7|Land with Class I, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Lot - Apartment|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Lot - Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
+|Lot - Exempt|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
 |Lot - Residential|1|Homesite = 1 Acre, Ag Parcels.|
 |Pasture|3|Visible Land used for livestock - Determination to follow.|
 |Pond|5|Body of water, Recreational or Agricultural.|
-|Primary Site|6|Primary Site, used in Industrial and Commercial Class parcels.
-Currently used for distinguishing multi use soil parcels.|
-|Primary Site|6|Primary Location for Main Concentration of Commercial or
-Industrial Involvement (Headquarters).|
+|Primary Site|6|Primary Site, used in Industrial and Commercial Class parcels. Currently used for distinguishing multi use soil parcels.|
+|Primary Site|6|Primary Location for Main Concentration of Commercial or Industrial Involvement (Headquarters).|
 |Rail Road|9|Property owned by Rail Company, no other use.|
-|Residential Homesite|1|Parcels Under 5 Ac may have Homesite < 1 ac --
-Residential Non Ag Parcels.|
-|Residual|2|Excess Land comprised of secondary buildings, maintained yard, and
-or drive.|
-|Right Of Way|9|Road Right Of Way - Possibly be removed from Residential
-Parcels.|
-|Secondary Site|7|Secondary Location for Main Concentration of Commercial or
-Industrial Involvement (WorkSite).|
-|Undeveloped Land|2|Undeveloped Land that is not Residual that could otherwise
-be used for another purpose other than vacant Undeveloped.|
-|Wetland/ Wasteland|5|Land that normally collects excess water and is unable to
-yield Crop, Land Unable to be used due to slope or another factor.|
+|Residential Homesite|1|Parcels Under 5 Ac may have Homesite < 1 ac -- Residential Non Ag Parcels.|
+|Residual|2|Excess Land comprised of secondary buildings, maintained yard, and or drive.|
+|Right Of Way|9|Road Right Of Way - Possibly be removed from Residential Parcels.|
+|Secondary Site|7|Secondary Location for Main Concentration of Commercial or Industrial Involvement (WorkSite).|
+|Undeveloped Land|2|Undeveloped Land that is not Residual that could otherwise be used for another purpose other than vacant Undeveloped.|
+|Wetland/ Wasteland|5|Land that normally collects excess water and is unable to yield Crop, Land Unable to be used due to slope or another factor.|
 |Woodland|4|Land comprised of mainly Forest, not wind breaks.|
 |Woodland- FMP|4|Woodland in a Forest Management Plan.|
 
@@ -164,17 +142,12 @@ General Land Cover Types:
 
 | Land Cover |	Code | Description |
 | ---------- | ----- | ----------- |
-| Homesite | 1 | The plot of land on which a house is or can be built. Homesite
-= 1 Acre. Parcels Under 5 Ac may have Homesite < 1 Acre. |
-| Tillable	| 2	| Land that is visibly cleared and used for agriculture or could
-be used for agriculture. |
+| Homesite | 1 | The plot of land on which a house is or can be built. Homesite = 1 Acre. Parcels Under 5 Ac may have Homesite < 1 Acre. |
+| Tillable	| 2	| Land that is visibly cleared and used for agriculture or could be used for agriculture. |
 | Woodland	| 4	| Land comprised of mainly Forest, not wind breaks. |
-| Ditch/Hydrography	| 5	| Land comprised of primarily water features (Ex: Ditch,
-River, Stream, Pond, Wetland, Wasteland). |
-| Primary Site | 	6	| Primary Location for Main Concentration of Commercial or
-Industrial Involvement. |
-| Secondary Site | 	7	| Secondary Location for Main Concentration of Commercial
-or Industrial Involvement. |
+| Ditch/Hydrography	| 5	| Land comprised of primarily water features (Ex: Ditch, River, Stream, Pond, Wetland, Wasteland). |
+| Primary Site | 	6	| Primary Location for Main Concentration of Commercial or Industrial Involvement. |
+| Secondary Site | 	7	| Secondary Location for Main Concentration of Commercial or Industrial Involvement. |
 | Right of Way	| 9	| Road or Rail Right of Way. |
 
 Land Program Types:
@@ -182,12 +155,8 @@ Land Program Types:
 | Land Cover |	Code | Description |
 | ---------- | ----- | ----------- |
 | Designated Forest Land	| 0	| Woodland that is in a Federal Program. |
-| Conservation Program Designated	| 23 | Land in Federal or State Conservation
-Program. |
-| Conservation Practice 25%	| 24	| Practice use of grass waterways, terraces,
-diversions, filter strips, field borders, windbreaks, riparian buffers,
-wetlands, ponds, and cover crops for that purpose to abate soil erosion. (VIA
-O.R.C.) |
+| Conservation Program Designated	| 23 | Land in Federal or State Conservation Program. |
+| Conservation Practice 25%	| 24	| Practice use of grass waterways, terraces, diversions, filter strips, field borders, windbreaks, riparian buffers, wetlands, ponds, and cover crops for that purpose to abate soil erosion. (VIA O.R.C.) |
 | Woodland – FMP	| 4	| Woodland in a Forest Management Plan. |
 
 
