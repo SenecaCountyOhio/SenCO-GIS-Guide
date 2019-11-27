@@ -233,7 +233,7 @@ financial resources.
 
 #### Figure 2 – Highway Map of Seneca County, Ohio
 
-![Highway Map of Seneca County, Ohio](//Img/HighwayMap_front_Print-1.jpg)
+![Highway Map of Seneca County, Ohio](/Img/HighwayMap_front_Print-1.jpg)
   
 #### Figure 3 – Address Shapefile Attribute Metadata
 
