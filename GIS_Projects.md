@@ -1,4 +1,4 @@
-GIS Project Descriptions
+#GIS Project Descriptions
 Author: Brendan Cullen, 2019
 Email: brendancullen996@gmail.com
 Phone: 914 841 8889
