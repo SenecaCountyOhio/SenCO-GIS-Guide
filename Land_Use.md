@@ -95,7 +95,7 @@ validate Conservation Practices 25%.
 #### Discussion & Conclusion
 Thanks to the hard work of many individuals with Seneca County, a very accurate land dataset has been developed. With this new workflow, the dataset’s overall integrity will improve, and the dataset will continue to be efficiently maintained. As regulations by the State of Ohio or the needs of the Auditor’s Office change, this dataset can be adjusted without having to manipulate this new workflow.
 #### Figures
-Figure 1 – Old Land Use Types, Codes, & Descriptions
+###### Figure 1 – Old Land Use Types, Codes, & Descriptions
 
 |LAND USE|LAND CODE|DESCRIPTION|
 |--------|:---------:|-----------|
@@ -127,7 +127,7 @@ Figure 1 – Old Land Use Types, Codes, & Descriptions
 |Woodland|4|Land comprised of mainly Forest, not wind breaks.|
 |Woodland- FMP|4|Woodland in a Forest Management Plan.|
 
-Figure 2 – New Layer Types, Codes, & Descriptions
+###### Figure 2 – New Layer Types, Codes, & Descriptions
 General Land Cover Types:
 
 | Land Cover |	Code | Description |
@@ -141,6 +141,7 @@ General Land Cover Types:
 | Right of Way	| 9	| Road or Rail Right of Way. |
 
 Land Program Types:
+
 | Land Cover |	Code | Description |
 | ---------- | ----- | ----------- |
 | Designated Forest Land	| 0	| Woodland that is in a Federal Program. |
@@ -150,27 +151,31 @@ Land Program Types:
 
 
 
-Figure 3 – Feature Class Field Descriptions
+###### Figure 3 – Feature Class Field Descriptions
 Land_General Feature Class:
-Important Fields	Description
-CAMA	New generalized code
-Land Code	Code used for assessment in CAMA
-Land Use Notes	General note about specific land feature
+
+| Field Name | Description |
+| ---------- | ----------- |
+| CAMA	| New generalized code. |
+| Land Code	| Code used for assessment in CAMA. |
+| Land Use Notes	| General note about specific land feature. |
 
 Land_Programs Feature Class:
-Important Fields	Description
-CAMA	New generalized code
-Land Code	Code used for assessment in CAMA
-Land Use Notes	General note about specific land feature
-LINK	Path to Document
-FED_PROG	Federal Program Name
-Conservation_Type	Conservation Practice Type
-Start_Date	Start Date of Program
-End_Date	End Date of Program
-Contract_Acreage	Acreage directly stated in Program Contract
-Contract_Notes	Any additional notes
-Field_Number	Contract’s individual Field Number
-Field_Acreage	Field Number’s individual acreage
-Practice_Number	Contracts’ individual Practice Number
-Contract_Number	Contract Number
-Tract_Number	Contract’s individual Farm Tract Number
+
+| Field Name | Description |
+| ---------- | ----------- | 
+| CAMA	| New generalized code. |
+| Land Code	| Code used for assessment in CAMA. |
+| Land Use Notes	| General note about specific land feature. |
+| LINK	| Path to Document
+| FED_PROG	| Federal Program Name
+| Conservation_Type	| Conservation Practice Type
+| Start_Date	| Start Date of Program
+| End_Date	| End Date of Program
+| Contract_Acreage	| Acreage directly stated in Program Contract
+| Contract_Notes	| Any additional notes
+| Field_Number	| Contract’s individual Field Number
+| Field_Acreage	| Field Number’s individual acreage
+| Practice_Number	| Contracts’ individual Practice Number
+| Contract_Number	| Contract Number
+| Tract_Number	| Contract’s individual Farm Tract Number
