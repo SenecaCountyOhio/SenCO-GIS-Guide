@@ -6,10 +6,10 @@ GIS Programmer/Analyst
 Seneca County Auditor’s Office  
 October 2019
 
-#### Purpose
+## Purpose
 The purpose of this paper is to provide documentation of Seneca County’s Land Dataset and outline improvements made to the structure and maintenance of the dataset in 2019.
 
-#### Background
+## Background
 Land information (i.e. the cover and use of land) is vital to the daily
 operations of Seneca County. There are many ways to interpret land information,
 and different organizations have developed similar, but varying systems. In the
@@ -40,7 +40,7 @@ Codes and Land Programs. With this system, conservation practices and other land
 contract programs can be maintained separately from the General Land Codes. The
 two datasets can then be combined when used for valuation of properties.
 
-#### Improved GIS Dataset Structure
+## Improved GIS Dataset Structure
 Rather than maintian one large dataset trying to describe Land Codes and Land
 Programs, the improved workflow will separate General Land Codes and Land
 Programs information. Land Codes usually describes physical land types
@@ -54,7 +54,7 @@ order to build a single dataset for property valuation. Figure 2 outlines the
 individual land dataset’s types, codes, and descriptions.
 
 *The General Land Code layer acts as the intial base all other Land Programs are
-*added upon.*
+added upon.*
 
 ```
 Example: A farm in the CAUV program could have wetlands, half of which are under
@@ -66,7 +66,7 @@ maintained as well as property owner specific land use, which changes much more
 often.
 ```
 
-#### New GIS Workflow
+## New GIS Workflow
 The Land Update Workflow Geodatabase & Toolbox contain the GIS layers and a
 geoprocessing tool to combine the GIS layers. The project folder is located at
 “B:\Projects\Land Use\Land Update Workflow”. The tool’s only required input is a
@@ -82,7 +82,7 @@ Edits should only be made to the Land_General or
 Land_Programs layers. Figure 3 provides descriptions of the fields in the
 Land_General and Land_Programs feature classes;
 
-#### Dataset Integrity
+## Dataset Integrity
 The dataset currently has a few inaccuracies that should be identified.
 
 1. The Land_Programs layer is missing a lot of vital information and has not be regularly maintained to the proper standards.
@@ -92,10 +92,10 @@ residential properties should be investigated.
 4. No current system in place to
 validate Conservation Practices 25%.
 
-#### Discussion & Conclusion
+## Discussion & Conclusion
 Thanks to the hard work of many individuals with Seneca County, a very accurate land dataset has been developed. With this new workflow, the dataset’s overall integrity will improve, and the dataset will continue to be efficiently maintained. As regulations by the State of Ohio or the needs of the Auditor’s Office change, this dataset can be adjusted without having to manipulate this new workflow.
-#### Figures
-###### Figure 1 – Old Land Use Types, Codes, & Descriptions
+## Figures
+#### Figure 1 – Old Land Use Types, Codes, & Descriptions
 
 |LAND USE|LAND CODE|DESCRIPTION|
 |--------|:---------:|-----------|
@@ -127,7 +127,7 @@ Thanks to the hard work of many individuals with Seneca County, a very accurate 
 |Woodland|4|Land comprised of mainly Forest, not wind breaks.|
 |Woodland- FMP|4|Woodland in a Forest Management Plan.|
 
-###### Figure 2 – New Layer Types, Codes, & Descriptions
+#### Figure 2 – New Layer Types, Codes, & Descriptions
 General Land Cover Types:
 
 | Land Cover |	Code | Description |
@@ -151,7 +151,7 @@ Land Program Types:
 
 
 
-###### Figure 3 – Feature Class Field Descriptions
+#### Figure 3 – Feature Class Field Descriptions
 Land_General Feature Class:
 
 | Field Name | Description |
@@ -163,7 +163,7 @@ Land_General Feature Class:
 Land_Programs Feature Class:
 
 | Field Name | Description |
-| ---------- | ----------- | 
+| ---------- | ----------- |
 | CAMA	| New generalized code. |
 | Land Code	| Code used for assessment in CAMA. |
 | Land Use Notes	| General note about specific land feature. |
