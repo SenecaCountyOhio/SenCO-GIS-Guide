@@ -7,7 +7,7 @@ Seneca County Auditor’s Office
 October 2019
 
 ## Background
-The Parcel Layer is maintained by the Seneca County Engineer’s Tax Map Office.
+The Parcel Layer is maintained by the [Seneca County Engineer's](https://sencoeng.com/) Tax Map Office.
 The layer itself was originally developed by Mark Zimmerman (the County
 Engineer) in a CAD environment. It was later brought into an ArcView Landscape
 and eventually then loaded into a Parcel Fabric.
