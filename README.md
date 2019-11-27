@@ -7,4 +7,4 @@ Much of this was written by Brendan Cullen in reference to notes & documentation
 left by Alex Rodd.
 
 ## License
-Creative Commons Zero v1.0 Universal
+Only Seneca County Employees may contribute to this document.
