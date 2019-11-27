@@ -4,7 +4,7 @@
 Brendan Cullen  
 GIS Programmer/Analyst  
 Seneca County Auditor’s Office  
-October 2019  
+October 2019   
 
 ## Purpose
 The purpose of this paper is to document the current Addressing Authorities in
@@ -301,9 +301,6 @@ financial resources.
 | Date Modified | DATE_MOD | Date | Date the address was last modified. |
 
 
-
-
- 
 ## References
 - ORC 303.021
 - Seneca County Resolution 19-60
