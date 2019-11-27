@@ -7,7 +7,9 @@ Seneca County Auditor’s Office
 October 2019  
 
 ## Purpose
-The purpose of this paper is to document the current Addressing Authorities in Seneca County, outline Seneca County’s addressing procedure, and identify issues with the integrity and maintenance of the Seneca County Address Dataset.
+The purpose of this paper is to document the current Addressing Authorities in
+Seneca County, outline Seneca County’s addressing procedure, and identify issues
+with the integrity and maintenance of the Seneca County Address Dataset.
 
 ## Background
 Addressing refers to the process of assigning an address to a property or
@@ -32,14 +34,24 @@ the primary Addressing Authority responsible for maintaining the Address Point
 Dataset.
 
 ## Addressing Authorities in Seneca County
-Addressing Authorities are the government entities responsible for the assignment of addresses. Currently, there are nine Addressing Authorities in Seneca County. Figure 1 lists the Addressing Authorities and their contact information. Incorporated areas of the county are responsible for their own addressing system. The Ohio Revised Code (ORC) affirms the county only has the right to assign and change addresses in unincorporated areas. The ORC directly states:
+Addressing Authorities are the government entities responsible for the
+assignment of addresses. Currently, there are nine Addressing Authorities in
+Seneca County. [Figure 1](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md#figure-1--seneca-county-addressing-authorities)
+lists the Addressing Authorities and their contact information. Incorporated
+areas of the county are responsible for their own addressing system. The Ohio
+Revised Code (ORC) affirms the county only has the right to assign and change
+addresses in unincorporated areas. The ORC directly states:
 
 > The board of county commissioners may designate street names and assign numbers
 > to buildings along streets in unincorporated areas. The owners of such buildings
 > shall number or renumber such buildings in accordance with the numbers assigned
 > by the county commissioners (ORC 303.021).
 
-Effective April 1st, 2019, the Seneca County Auditor’s Office manages the assignment of addresses in unincorporated areas (Seneca County Resolution 19-60). The Seneca County Auditor’s Office serves as the primary Addressing Authority for the county and is responsible for maintaining and distributing the Address Point Dataset.
+Effective April 1st, 2019, the Seneca County Auditor’s Office manages the
+assignment of addresses in unincorporated areas (Seneca County Resolution
+19-60). The Seneca County Auditor’s Office serves as the primary Addressing
+Authority for the county and is responsible for maintaining and distributing the
+Address Point Dataset.
 
 ## Unincorporated Areas Addressing Procedure
 
@@ -70,43 +82,43 @@ Seneca County Auditor's Office
 | Zip Code | 44883 |
 
 
-Seneca County uses an addressing grid indicated in Figure 2, “Highway Map of
-Seneca County, Ohio” produced by the Seneca County Engineer. Each axis generally
-aligns with the Township Sections of Seneca County. The Township Sections are
-approximately 1 square mile, creating an evenly spaced grid of address blocks
-across the county. The following values need to be determined (in this order) to
-calculate the final House Number;
+Seneca County uses an addressing grid indicated in [Figure2](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md#figure-2--highway-map-of-seneca-county-ohio),
+“Highway Map of Seneca County, Ohio” produced by the Seneca County Engineer.
+Each axis generally aligns with the Township Sections of Seneca County. The
+Township Sections are approximately 1 square mile, creating an evenly spaced
+grid of address blocks across the county. The following values need to be
+determined (in this order) to calculate the final House Number;
 
-##### Address Block
+#### Address Block
 A block outlined by the addressing grid. The addressing
 blocks are in increments of 1000. Each block has a pair of (X, Y) values. X is
 the axis E/W, and Y is the axis N/S.
 
-##### Street Name
+#### Street Name
 The name of the street of the new address. The street that
 provides main access the structure or property should be used.
 
-##### Street Direction
+#### Street Direction
 The street prefix assigned to the street. The Street Name
 is used to determine the street prefix. If there is no street prefix, then the
 general cardinal direction (N/S or E/W) the street runs is used.
 
-##### Address Block Starting Line
+#### Address Block Starting Line
 The axis line that is used to measure the House
 Number. If the Street Direction is N/S, the Address Block’s Y Value is used. If
 the Street Direction is E/W, the Address Block’s X Value is used.
 
-##### Address Distance
+#### Address Distance
 The distance (in miles) from the new address to the
 Address Block Starting Line.
 
-##### Side
+#### Side
 The side of the street the address is on. If the address is West of a
 N/S street or South of an E/W street, the address is even. If the address is
 East of a N/S street or North of an E/W street, the address is odd. The House
 Number should be rounded to fit within the Even/Odd pattern.
 
-##### House Number
+#### House Number
 The combination of the address’s Address Block and the Address
 Distance (taking into consideration which Side of the road the address is on).
 The Address Distance is multiplied by 1000, and then added to the Address
@@ -146,13 +158,14 @@ The following GIS layers contain all the information needed to assign an address
 A .aprx can be found at “B:\Projects\Addressing\County_Addressing”, which
 contains all these layers. The measure tool in ArcGIS Pro can be used to
 determine the distances outlined in the Addressing Procedure. As many of the
-fields in Current_Address feature class should be filled as possible. Figure 3
-provides a description of each filed, and how the data should be entered.
+fields in Current_Address feature class should be filled as possible.
+[Figure 3](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md#figure-3--address-shapefile-attribute-metadata)
+provides a description of each field, and how the data should be entered.
 
 A python geoprocessing script has begun to be developed in order to automate
 this process. The code repository can be found here
 https://github.com/bren96/Addressing_Workflow. *NOTE:The current state is still
-in a debugging phase*
+in a debugging phase.*
 
 ## Data Integrity & Maintenance Issues
 There are several issues with the current addressing workflow and GIS dataset;
