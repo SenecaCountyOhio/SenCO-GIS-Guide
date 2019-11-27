@@ -1,4 +1,4 @@
-#GIS Project Descriptions
+# GIS Project Descriptions
 Author: Brendan Cullen, 2019
 Email: brendancullen996@gmail.com
 Phone: 914 841 8889
@@ -22,36 +22,6 @@ Ongoing Projects | General Description
 	this position are under "GIS_Scripts" in the Windows Task Scheduler app.
 
 Ongoing Projects | Seneca County Parcel Layer
-
-	The Parcel Layer is controlled, maintained and developed by the Seneca County
-	Engineer’s Tax Map (office next door). The layer itself was originally produced
-	and maintained by Mark Zimmerman (the County Engineer) in a CAD environment.
-	It was later brought into an ArcView Landscape and eventually then loaded into
-	a Parcel Fabric.
-
-	The Parcels were originally maintained on paper by Dawn, and drafted using
-	different techniques. The need for a digital representation was eventually
-	brought into light and Mark took it upon himself to learn what he could of GIS
-	and has developed the layer we use today. The layer is maintained now by the
-	Tax Map Staff (currently Dawn and Alexa) who are under the guidance of Mark.
-
-	For the Auditor, the Parcels are a critical base layer for many GIS
-	operations. Accuracy is of key importance due to the analytical nature of CAUV
-	calculations and property assessments. There are some errors in the dataset
-	since the parcel layer is really only meant for reference, however, if
-	you notice an error and bring it to their attention they will promptly fix it.
-	When running a calculation on a property, always double check for topology errors.
-	Over time, there will be less and less issues with the layer as issues are spotted.
-
-	The Engineer has a Tax Parcel App
-	(http://sencoeng-oh.maps.arcgis.com/apps/webappviewer/index.html?id=5bef53ea29e147c9a1f250994fd75f2d)
-	that is updated with the parcel layer on a nightly basis. A script located at
-	"B:\Projects\Automated Tasks\Daily_Parcel_PULL" will pull the parcel layer
-	from the Tax Parcel App, and create a new feature class called "Current
-	Parcels". The current parcels layer is loaded into many of the map documents ,
-	and it is a best to always use the most current information. This script is
-	scheduled to run every night as long as this computer is left running.
-
 
 
 Ongoing Projects | Addressing
