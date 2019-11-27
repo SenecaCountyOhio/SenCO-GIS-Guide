@@ -14,7 +14,7 @@ dataset in 2019.
 ## Background
 Land information (i.e. the cover and use of land) is vital to the daily
 operations of Seneca County. There are many ways to interpret land information,
-and different organizations have developed similar, but varying systems. In the
+and different organizations have developed similar, yet varying systems. In the
 Seneca County Auditor’s Office there is a large difference between Land Use
 Codes, which are determined by the State of Ohio, and Land Codes, which are
 determined by the County Auditor. A parcel is assigned one Land Use Code, which
@@ -30,32 +30,35 @@ Although each of these processes use land information, each have specific
 definitions of land that sometimes require different levels of detail. Seneca
 County invested in a Geographic Information System (GIS) in order to develop and
 maintain a Land Code Dataset that maps every parcel’s Land Codes. The original
-Land Code Dataset included cover and uses of land and was developed by
-individually assessing each parcel in Seneca County.
+Land Code Dataset included a mix of cover and uses of land and was developed in
+2004 by the Seneca County Engineer and Seneca County Regional Planning
+Department. Around 2017, the original layer was stripped down and rebuilt using
+new aerial imagery from Pictometry by Alex Rodd of the Seneca County Auditor's
+Office. 
 
 In recent years, the types of agricultural uses and conservation programs
 recognized in CAUV has increased, and so the Land Code Dataset has grown to
 reflect these changes. Figure 1 details the current attributes included in the
-original Land Use Dataset. As the dataset’s breadth expanded, it was decided
-that the single Land Code dataset should be separated between the General Land
-Codes and Land Programs. With this system, conservation practices and other land
-contract programs can be maintained separately from the General Land Codes. The
-two datasets can then be combined when used for valuation of properties.
+2017 Land Use Dataset. Since the dataset’s breadth expanded, it was decided that
+the single Land Code dataset should be separated between the Land Codes and Land
+Programs. With this system, conservation practices and other land contract
+programs can be maintained separately from the generalized Land Codes. The two
+datasets can then be combined when used for valuation of properties.
 
 ## Improved GIS Dataset Structure
-Rather than maintian one large dataset trying to describe Land Codes and Land
+Rather than maintain one large dataset trying to describe Land Codes and Land
 Programs, the improved workflow will separate General Land Codes and Land
 Programs information. Land Codes usually describes physical land types
 (Woodland, River, Cropland, etc.) while Land Programs documents Federal, State,
 or County managed land contracts that identify how people are using the land
-(Conservation, Commerical Woodland, Golf Course, etc.)
+(Conservation, Commercial Woodland, Golf Course, etc.)
 
 The new structure uses smaller datasets that are more manageable, and describe
 similar yet independent land information. The layers can then be combined in
 order to build a single dataset for property valuation. Figure 2 outlines the
 individual land dataset’s types, codes, and descriptions.
 
-**The General Land Code layer acts as the intial base all other Land Programs
+**The General Land Code layer acts as the initial base all other Land Programs
 are added upon.**
 
 ```
@@ -111,7 +114,7 @@ new workflow.
 |--------|:---------:|-----------|
 |Animal Husbandry|3|Buildings or Structures that House Animals for a Commercial purpose. Science of breeding and caring for Farm Animals.|
 |Commercial|6|Land with Class C/ or Land that is used Commercially, Not Residual or Homesite - To be broken down into Primary/Secondary Site.|
-|Conservation Practice 25%|24|Practice use of grass waterways, terraces, diversions, filter strips, field borders, windbreaks, riparian buffers, wetlands, ponds, and cover crops for thatpurpose to abate soil erosion VIA O.R.C.|
+|Conservation Practice 25%|24|Practice use of grass waterways, terraces, diversions, filter strips, field borders, windbreaks, riparian buffers, wetlands, ponds, and cover crops for that purpose to abate soil erosion VIA O.R.C.|
 |Conservation Program Designated|23|Land in Federal or State Conservation Program (Ex: FSA Program).|
 |Cropland|2|Land that is being 'Cropped', and not vacant of crop for more than 3 years.|
 |Cropland Default|2|Land that is lumped into being considered as Cropland for lack of a better use or explanation - usually areas between fields or long narrow spaces.|
