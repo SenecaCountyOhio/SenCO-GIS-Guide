@@ -69,29 +69,6 @@ Ongoing Projects | EMA's Callworks WebGIS
 
 Ongoing Projects | Land Use/Cover Layer
 
-	An official was written to explain the development and maintenance of the Land
-	Use/Cover Layer. The paper can be found at "B:\Projects\Land Use\Seneca County
-	Land White Paper.docx".
-
-	In short, Seneca County invested in GIS in order to develop and maintain a
-	Land Code Dataset that maps every parcel’s Land Codes. The original Land Code
-	Dataset included cover and uses of land and was developed by individually
-	assessing each parcel in Seneca County. The Land Codes are used by the Seneca
-	County Auditor’s Office in 3 different ways; 1) Valuation of a property’s
-	residual or agricultural land. 2) Current Agricultural Use Valuation (CAUV).
-	3) Determining if a property is eligible for CAUV.
-
-	As the dataset’s breadth expanded, it was decided in 2019 that the single Land
-	Code dataset should be separated between the General Land Codes and Land
-	Programs. With this system, conservation practices and other land contract
-	programs can be maintained separately from the General Land Codes. The two
-	datasets can then be combined when used for valuation of properties.
-
-	This paper explains where the GIS data is and how the final layer is created.
-	Julie Adkins and Kelly Zoeller are the best people to go to with more general
-	questions regarding the land use codes, but if you have questions about the
-	GIS data you should contact Brendan Cullen.
-
 
 Annual Projects
 	CAUV

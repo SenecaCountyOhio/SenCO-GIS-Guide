@@ -43,14 +43,13 @@ The primary themes include;
 
 ## Secondary Themes
 A more specific descriptive name for the type of Geographic Information.
+**There should be no Tertiary Themes.**
 
 ```
 Example: Emergency Management is broken down into Fire, EMS, Police, EMA.
 ```
 
-There
-should be no Tertiary Themes. After Secondary Theme the information should only
-be broken down into Geographic Area.
+
 
 
 ## Geographic Area
@@ -61,9 +60,6 @@ multiple areas of reference.
 
 ## Current Fold structure (11/26/2019):
 ```
-B:.
-│   README.txt
-│   Seneca County Metadata Template.xml
 │
 ├───Administrative Boundaries
 │   ├───Election Districts
