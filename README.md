@@ -8,7 +8,7 @@ Regular Operations
 - [Seneca County GeoLibrary](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/GeoLibrary.md)
 - [Seneca County Land Use Dataset](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Land_Use.md)
 - [Seneca County Parcel Layer](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Parcel_Layer.md)
-- Address Assignment & Address Point Layer
+- [Address Assignment & Address Point Layer](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md)
 - Seneca County Auditor's WebGIS
 - Seneca County Emergency Management Association's (EMA) WebGIS
 
