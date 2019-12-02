@@ -28,4 +28,4 @@ Written by Brendan Cullen in 2019. This document was produced from internal note
 left by Alex Rodd in 2018.
 
 ## License
-Only Seneca County Employees may contribute to this document.
+Only Seneca County Ohio Employees may contribute to this document.
