@@ -1,9 +1,4 @@
-# Seneca County Auditor's Office's WebGIS
-#### Author:
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-October 2019
+# Seneca County Auditor WebGIS
 
 The [Seneca County Auditor](http://www.senecacountyauditor.org), has
 a [WebGIS](http://www.senecacountyauditor.org/Map.aspx) that is used internally

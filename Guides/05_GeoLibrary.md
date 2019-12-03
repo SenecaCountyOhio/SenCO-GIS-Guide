@@ -1,10 +1,4 @@
 # Seneca County GeoLibrary
-#### Author:
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-October 2019
-
 
 ## Purpose:
 The primary goal of the Seneca County GeoLibrary is to better structure and

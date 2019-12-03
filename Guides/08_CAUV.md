@@ -1,9 +1,4 @@
 # Current Agricultural Use Valuation Program
-#### Author:
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-November 2019
 
 ## Purpose
 The purpose of this paper is to outline the administration procedures of the CAUV program in Seneca County, as well as document changes to these procedures in 2019.

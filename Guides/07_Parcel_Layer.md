@@ -1,11 +1,5 @@
 # Seneca County Parcel Layer
 
-#### Author
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-October 2019
-
 ## Background
 The Parcel Layer is maintained by the [Seneca County Engineer's](https://sencoeng.com/) Tax Map Office.
 The layer itself was originally developed by Mark Zimmerman (the County

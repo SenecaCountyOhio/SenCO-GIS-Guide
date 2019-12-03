@@ -1,11 +1,5 @@
 # Seneca County Land Code Dataset
 
-#### Author
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-October 2019
-
 ## Purpose
 The purpose of this paper is to provide documentation of Seneca County’s Land
 Dataset and outline improvements made to the structure and maintenance of the

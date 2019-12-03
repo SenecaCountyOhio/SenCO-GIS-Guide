@@ -1,9 +1,4 @@
-# Seneca County EMA's WebGIS
-#### Author:
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-October 2019
+# Seneca County EMA WebGIS
 
 The Seneca County [Emergency Management Association](https://senecacountyohio.gov/seneca-county-emergency-services/)
 partnered with Motorola to manage 9-1-1 calls. Motorola has a WebGIS product

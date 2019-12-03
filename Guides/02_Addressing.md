@@ -1,11 +1,5 @@
 # Seneca County Addressing
 
-#### Author
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-October 2019   
-
 ## Purpose
 The purpose of this paper is to document the current Addressing Authorities in
 Seneca County, outline Seneca County’s addressing procedure, and identify issues
@@ -36,7 +30,7 @@ Dataset.
 ## Addressing Authorities in Seneca County
 Addressing Authorities are the government entities responsible for the
 assignment of addresses. Currently, there are nine Addressing Authorities in
-Seneca County. [Figure 1](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md#figure-1--seneca-county-addressing-authorities)
+Seneca County. [Figure 1](#-figure-1-–-seneca-county-addressing-authorities)
 lists the Addressing Authorities and their contact information. Incorporated
 areas of the county are responsible for their own addressing system. The Ohio
 Revised Code (ORC) affirms the county only has the right to assign and change
@@ -82,7 +76,7 @@ Seneca County Auditor's Office
 | Zip Code | 44883 |
 
 
-Seneca County uses an addressing grid indicated in [Figure2](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md#figure-2--highway-map-of-seneca-county-ohio),
+Seneca County uses an addressing grid indicated in [Figure2](#figure-2--highway-map-of-seneca-county-ohio),
 “Highway Map of Seneca County, Ohio” produced by the Seneca County Engineer.
 Each axis generally aligns with the Township Sections of Seneca County. The
 Township Sections are approximately 1 square mile, creating an evenly spaced
