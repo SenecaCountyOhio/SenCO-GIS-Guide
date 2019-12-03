@@ -1,3 +1,4 @@
+[Return to Homepage](../index.html)
 # Seneca County GeoLibrary
 
 ## Purpose

@@ -1,3 +1,4 @@
+[Return to Homepage](../index.html)
 # Seneca County Auditor WebGIS
 
 The [Seneca County Auditor](http://www.senecacountyauditor.org), has
