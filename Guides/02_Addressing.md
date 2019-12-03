@@ -30,7 +30,7 @@ Dataset.
 ## Addressing Authorities in Seneca County
 Addressing Authorities are the government entities responsible for the
 assignment of addresses. Currently, there are nine Addressing Authorities in
-Seneca County. [Figure 1](#-figure-1-–-seneca-county-addressing-authorities)
+Seneca County. [Figure 1](#figure-1-seneca-county-addressing-authorities)
 lists the Addressing Authorities and their contact information. Incorporated
 areas of the county are responsible for their own addressing system. The Ohio
 Revised Code (ORC) affirms the county only has the right to assign and change
@@ -76,7 +76,7 @@ Seneca County Auditor's Office
 | Zip Code | 44883 |
 
 
-Seneca County uses an addressing grid indicated in [Figure2](#figure-2--highway-map-of-seneca-county-ohio),
+Seneca County uses an addressing grid indicated in [Figure2](#figure-2-highway-map-of-seneca-county-ohio),
 “Highway Map of Seneca County, Ohio” produced by the Seneca County Engineer.
 Each axis generally aligns with the Township Sections of Seneca County. The
 Township Sections are approximately 1 square mile, creating an evenly spaced
@@ -149,7 +149,7 @@ The following GIS layers contain all the information needed to assign an address
 -	Highway Map
 -	Aerial Imagery
 
-A .aprx can be found at “B:\Projects\Addressing\County_Addressing”, which
+A .aprx can be found at “B:\\Projects\\Addressing\\County_Addressing”, which
 contains all these layers. The measure tool in ArcGIS Pro can be used to
 determine the distances outlined in the Addressing Procedure. As many of the
 fields in Current_Address feature class should be filled as possible.
@@ -208,39 +208,39 @@ financial resources.
 | Region | Addressing Authority | Contact Information |
 | ------ | -------------------- | ------------------- |
 | Seneca County (Unincorporated Areas) | Seneca County | Brendan Cullen - GIS |
-| | | addressing@senecacountyohio.gov |
-| | | (419) 447-0692 |
-| | | 109 S. Washington St. Suite 2206 Tiffin, OH 44883 |
+|-|-| addressing@senecacountyohio.gov |
+|-|-| (419) 447-0692 |
+|-|-| 109 S. Washington St. Suite 2206 Tiffin, OH 44883 |
 | City of Tiffin | City of Tiffin | Dan Brickner - Zoning Inspector |
-| | | dbrickner@tiffinohio.gov |
-| | | (419) 448-5425 |
-| | | 51 E. Market St. Room A20, Tiffin, OH 44883 |
+|-|-| dbrickner@tiffinohio.gov |
+|-|-| (419) 448-5425 |
+|-|-| 51 E. Market St. Room A20, Tiffin, OH 44883 |
 | City of Fostoria | Compliance/Project Manager | compliance@fostoriaohio.gov |
-| | | (419) 435-9775 |
-| | | 213 S. Main St., Fostoria, OH 44830 |
+|-|-| (419) 435-9775 |
+|-|-| 213 S. Main St., Fostoria, OH 44830 |
 | Village of Attica | Village Administrator | voa@bright.net |
-| | | (419) 426-9611 |
-| | | 20 S. Main St., Attica, OH 44807 |
+|-|-| (419) 426-9611 |
+|-|-| 20 S. Main St., Attica, OH 44807 |
 | Village of Bettsville | Village Administrator | villageofbettsville@yahoo.com |
-| | | (419) 986-5636 |
-| | | 308 Emma St., Bettsville, OH 44815 |
+|-|-| (419) 986-5636 |
+|-|-| 308 Emma St., Bettsville, OH 44815 |
 | Village of Bloomville | Village Administrator | bloomville.ohio@gmail.com |
-| | | (419) 983-4745 |
-| | | 10 Beeghly Ave, Bloomville, OH 44818 |
+|-|-| (419) 983-4745 |
+|-|-| 10 Beeghly Ave, Bloomville, OH 44818 |
 | Village of Green Springs | Village Administrator | streets@villageofgreensprings.com |
-| | | (419) 603-8150 |
-| | | 120 Catherine St., Green Springs, OH 44836 |
-| Village of New Riegel | Village Administrator | - |
-| | | - |
-| | | 14 Findlay St., New Riegel, OH, 44853 |
-| Village of Republic | Village Administrator | - |
-| | | (419) 595-2839 |
-| | | 219 Washington St., Republic, OH 44867 |
+|-|-| (419) 603-8150 |
+|-|-| 120 Catherine St., Green Springs, OH 44836 |
+| Village of New Riegel | Village Administrator | Email Not Available |
+|-|-| Phone Note Available |
+|-|-| 14 Findlay St., New Riegel, OH, 44853 |
+| Village of Republic | Village Administrator | Information Not Available |
+|-|-| (419) 595-2839 |
+|-|-| 219 Washington St., Republic, OH 44867 |
 
 
 #### Figure 2 – Highway Map of Seneca County, Ohio
 
-![Highway Map of Seneca County, Ohio](/Img/HighwayMap_front_Print-1.jpg)
+![Highway Map of Seneca County, Ohio](Img/HighwayMap_front_Print-1.jpg)
   
 #### Figure 3 – Address Shapefile Attribute Metadata
 
@@ -270,7 +270,7 @@ financial resources.
 | Alternative Street Suffix 2 | ALTSUFFIX2 | Text | Populated with the alternate intercardinal directions. NE - Northeast, SE - Southeast, NW - Northwest, SW - Southwest|
 | Subdivision| SUBDIV| Text | Subdivision name, if applicable.|
 | Village | VILLAGE | Text | Village Name|
-| | SIDE | Numeric | Reserved |
+|-| SIDE | Numeric | Reserved |
 | Side | ABSSIDE | Text | Address side of the road. N – North, S – South, E – East, W – West |
 | Structure Type | STRUC_TYPE | Numeric | Type of structure. 1 – House, 2 – Duplex, 3 – Trailer, 4 – Single Apartment, 5- Secondary structure, 6 – Utility, 7 – Commercial, 8 – Address with no visible structure, 9 – Multiple unit apartments with unique suffixes, 12 – Multiple unit apartments with unique addresses |
 | Source| SOURCE| Numeric | Address data collection source |

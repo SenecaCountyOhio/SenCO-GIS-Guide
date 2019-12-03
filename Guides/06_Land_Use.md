@@ -28,16 +28,17 @@ Land Code Dataset included a mix of cover and uses of land and was developed in
 2004 by the Seneca County Engineer and Seneca County Regional Planning
 Department. Around 2017, the original layer was stripped down and rebuilt using
 new aerial imagery from Pictometry by Alex Rodd of the Seneca County Auditor's
-Office. 
+Office.
 
 In recent years, the types of agricultural uses and conservation programs
 recognized in CAUV has increased, and so the Land Code Dataset has grown to
-reflect these changes. Figure 1 details the current attributes included in the
-2017 Land Use Dataset. Since the dataset’s breadth expanded, it was decided that
-the single Land Code dataset should be separated between the Land Codes and Land
-Programs. With this system, conservation practices and other land contract
-programs can be maintained separately from the generalized Land Codes. The two
-datasets can then be combined when used for valuation of properties.
+reflect these changes. [Figure 1](#figure-1-old-land-use-types-codes-descriptions)
+details the current attributes included in the 2017 Land Use Dataset. Since the
+dataset’s breadth expanded, it was decided that the single Land Code dataset
+should be separated between the Land Codes and Land Programs. With this system,
+conservation practices and other land contract programs can be maintained
+separately from the generalized Land Codes. The two datasets can then be
+combined when used for valuation of properties.
 
 ## Improved GIS Dataset Structure
 Rather than maintain one large dataset trying to describe Land Codes and Land
@@ -49,8 +50,8 @@ or County managed land contracts that identify how people are using the land
 
 The new structure uses smaller datasets that are more manageable, and describe
 similar yet independent land information. The layers can then be combined in
-order to build a single dataset for property valuation. Figure 2 outlines the
-individual land dataset’s types, codes, and descriptions.
+order to build a single dataset for property valuation. [Figure 2](#figure-2-new-layer-types-codes-descriptions)
+outlines the individual land dataset’s types, codes, and descriptions.
 
 **The General Land Code layer acts as the initial base all other Land Programs
 are added upon.**
@@ -68,7 +69,7 @@ often.
 ## New GIS Workflow
 The Land Update Workflow Geodatabase & Toolbox contain the GIS layers and a
 geoprocessing tool to combine the GIS layers. The project folder is located at
-“B:\Projects\Land Use\Land Update Workflow”. The tool’s only required input is a
+“B:\\Projects\\Land Use\\Land Update Workflow”. The tool’s only required input is a
 path to the Land Update Workflow geodatabase, however, the geodatabase must
 contain a feature class named “Land_General” and a feature class named
 “Land_Programs”. The tool will output a feature class to the Geodatabase named
@@ -78,8 +79,9 @@ contain a feature class named “Land_General” and a feature class named
 should never be directly edited.**
 
 Edits should only be made to the Land_General or
-Land_Programs layers. Figure 3 provides descriptions of the fields in the
-Land_General and Land_Programs feature classes;
+Land_Programs layers. [Figure 3](#figure-3-feature-class-field-descriptions)
+provides descriptions of the fields in the Land_General and Land_Programs
+feature classes;
 
 ## Dataset Integrity
 The dataset currently has a few inaccuracies that should be identified.

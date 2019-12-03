@@ -1,6 +1,6 @@
 # Seneca County GeoLibrary
 
-## Purpose:
+## Purpose
 The primary goal of the Seneca County GeoLibrary is to better structure and
 document the various Geographic Information relevant to the county. The
 GeoLibrary can serve as the main GIS data and map storage repository for the
@@ -10,7 +10,7 @@ A secondary goal is to make all the information in the GeoLibrary
 available to the public and other departments through ArcGIS Hub.
 
 
-## Schema:
+## Schema
 ```
 ├───Primary Theme
 │   ├───Data
@@ -51,7 +51,7 @@ City of Tiffin, State of Ohio, USA, etc. Only included if Secondary Theme has
 multiple areas of reference.
 
 
-## Current Fold structure (11/26/2019):
+## Current Folder structure (11/26/2019):
 ```
 │
 ├───Administrative Boundaries
