@@ -147,37 +147,47 @@ Crops and 25 Acres of Hay since AG Land is considered more accurate.
 
 The logic used to calculate the acreage adjustment is identified below;
 
+  *Note: Each application is analyzed in this order. Remember, AG Land acreage
+   is considered more accurate.*
+
 - CROP == (Commodity Crop + Hay + Permanent Pasture + Other Crop + Other Use)
- - Extra acreage is taken from the highest value in group and assigned to Road/Waste/Pond
- - Missing acreage is taken from Road/Waste/Pond and assigned to highest value in group
+ - Extra acreage is removed from the highest value in group
+ - Missing acreage is assigned to highest value in group
 
 
 - WOOD == (Noncommercial Woodland + Commercial Woodland)
   - If there is only Commercial Woodland OR if there is only Noncommercial Woodland
-    - Extra acreage is assigned to Roads/Waste/Pond
-    - Missing acreage is taken from Roads/Waste/Pond
+    - Extra acreage is removed
+    - Missing acreage is added
   - If there is both Commercial Woodland AND Noncommercial Woodland
-    - Extra acreage is taken from Noncommercial Woodland and assigned to Roads/Waste/Pond
-    - Missing acreage is taken from Roads/Waste/Pond and assigned to Noncommercial
+    - Extra acreage is removed from Noncommercial Woodland
+    - Missing acreage is taken from Noncommercial Woodland
+
 
 - HOME == Homesite == 1 Ac. Only Per Parcel with home on it
-  - Extra acreage is assigned to Roads/Waste/Pond
-  - Missing acreage is taken from Roads/Waste/Pond
+  - Extra acreage is removed
+  - Missing acreage is added
+
 
 - CON25 == Conservation Practices 25%:
+  - Extra acreage is removed
+  - Missing acreage is added
+
 
 - CONP == Conservation Program:
+  - Extra acreage is removed
+  - Missing acreage is added
+
 
 - Roads/Waste/Pond == (ROW + WSTE + DTCH)
   - Opposite of other logic, the AG Land is more specific that the CAUV app in
     this case.
-  -
-
+  - Extra acreage is removed
+  - Missing acreage is added
 
 
 - Total AG LAND == Total CAUV LAND == Total Acreage of all Parcels
-  - These cases need to be individually analyzed, and adjusted manually. In this
-    case, AG Land should most likely be updated to match parcel acreages.
+  - If not equal, these cases need to be individually analyzed and adjusted manually.
 
 
 
@@ -190,46 +200,55 @@ database will become much more accurate.*
 ### CAUV Web Map
 
 In order to provide the land owners easy access to their values, a Web Map was
-developed using ArcGIS Online. The Auditor's Office already has several
-applications and GIS data layers hosted on ArcGIS Online, and it is quick and
-easy to create public-facing web applications using the ArcGIS Online's Web App
-Builder.
+developed using ArcGIS Online's Web App Builder. The Auditor's Office already
+has several applications and GIS layers hosted on ArcGIS Online, and it is quick
+and easy to create public-facing web applications.
 
 [Link to CAUV 2020 Web Map](https://arcg.is/1a5K05)
 
-The CAUV database was joined to the current parcel layer, and non CAUV parcel
-were removed. The layer's pop-ups were then configured to provide all the
-information needed to fill out the paper form. The search bar in the Web Map was
-then configured to use the layer's Application Number field (Unique ID of
+The CAUV database was joined to the current parcel layer, and non-CAUV parcels
+were removed. The layer's pop-ups were configured to provide all the information
+needed for a land owner to fill out the requested form. The search bar in the
+Web Map was configured to use the layer's Application Number field (Unique ID of
 Renewal Applications). Any private information about the parcels were then
-removed i.e. Owner Name.
+removed (i.e. Owner Name).
 
 
 ### CAUV Form Application
 
-To assist the Auditor's Office with reviewing and then adding each application
-to the new database, a Forms Application was developed using the python
-web-application framework [Flask](https://palletsprojects.com/p/flask/). The
-application runs on the local intranet, so only computers on the Auditor's
-network can access the web page. The application serves as a GUI wrapper around
-the CAUV database, so the office clerks can easily input a submission's values,
-check for errors against the database, and submit the new values to the
-database.
+To assist the Auditor's Office with reviewing and submitting each application
+to the CAUV database, a [CAUV Form Application](http://192.168.26.116:5000/signin)
+was developed using the python web-application framework
+[Flask](https://palletsprojects.com/p/flask/). The application runs on the local
+intranet, so only computers on the Auditor's network can access the web page.
+The application serves as a GUI wrapper around the CAUV database, so users can
+easily input a submission's values, check for errors against the database, and
+submit the new values to the database.
+
+The database and application server are stored in the O:Drive which only the
+Auditor's Office has access to;
+```
+O:\\GIS\\CAUV_Form
+```
+
+*Note: To run the server the .bat script on the GIS-PC desktop must be ran. The
+application only works if the server is running.*
+
 
 [Link to CAUV Form Application's code repository](https://github.com/bren96/CAUVForm)
 
 
 ## General Procedures Outline:
-1. Send out Renewal & Initial Applications
+#### 1. Send out Renewal & Initial Applications
 
-  1. Generate Mailing List using IasWorld
-  2. Print Applications
-  3. Mail Applications
+- Generate Mailing List using IasWorld
+- Print Applications
+- Mail Applications
 
 
-2. Process Incoming Renewal Applications
+#### 2. Process Incoming Renewal Applications
 
-  - Input values into CAUV Form Application
+  - Input values into [CAUV Form Application](http://192.168.26.116:5000/signin)
 
     - If validated, update in IasWorld. Scan application and
       attach to parcels.
@@ -237,37 +256,36 @@ database.
       returned to applicant.
     - If an application should be reviewed in the field, set field review flag
       in IasWorld and include why in Note Field.
+    - If application does not meet income requirements, indicate so in note field in IasWorld.
 
 
 
-3. Send out First Warnings
+#### 3. Send out First Warnings
 
   - Send applications with errors back to the applicants.
 
 
-4. Repeat Step 2
+#### 4. Repeat Step 2
 
-5. Send out Second Warnings
+#### 5. Send out Second Warnings
 
   - Include more serious letter and more detailed error note.
 
 
-6. Repeat Step 2
+#### 6. Repeat Step 2
 
-7. Field Review
+#### 7. Field Review
 
-  1. Pull all flagged for field review applications and notes in IasWorld's Inquire.
+- Pull all "flagged for field review" applications and notes using IasWorld's Inquire.
+- Send work order list to Pivot Point
+- Field check parcels of each Application
 
-  2. Upload list to Pivot Point Field App
-
-  3. Field check parcels of each Application
-
-8. Office Review
+#### 8. Office Review
 
   - Using notes from Field Check, repeat step 2
 
 
-9. Issue Denial or Removal Notices
+#### 9. Issue Denial or Removal Notices
 
   - Any applicants that haven't returned their application, have under required
     income 3 years in a row, or do not qualify for the program are sent a Denial
@@ -276,3 +294,27 @@ database.
 
 
 ## Field Review Stage
+
+*More detailed notes on CAUV Field Review Stage*
+
+#### 1. Pre-Field
+- Assign Work Orders using Pivot Point's Work Order Manager
+- Download Work Orders to Pivot Point's Field App
+- Work by township/word OR Work by Map
+
+#### 2. At Site
+- Review CAUV Flag Review Note to determine necessary checks
+- If there is a dwelling go to the front door & knock/ring doorbell twice
+- If homeowner answers, explain reason for visit and verify/correct necessary data
+- If no one is home leave a doorhanger explaining the reason for visit and request owner to call office
+- Make necessary notes/changes/recommendations in Pivot Point Field App
+- Take photos of dwellings, all outbuildings/land
+- Set status of Work Order in Pivot Point Field App
+
+#### 3. Final Review at Site
+- Review changes
+- Hit "Update Work Order"
+- Move on to next Parcel (Repeat Step 2)
+
+#### 4. Post-Field
+- Upload notes and photos using Pivot Point Field App
