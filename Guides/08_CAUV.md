@@ -2,15 +2,15 @@
 # Current Agricultural Use Valuation Program
 
 ## Purpose
-The purpose of this paper is to outline Seneca County's administration
-procedures of the Current Agricultural Use Valuation program, as well as
-document changes to these procedures in 2019 and 2020.
+The purpose of this paper is to outline Seneca County's administration of the
+Current Agricultural Use Valuation program, as well as document changes to the
+process in 2019 and 2020.
 
 ## Background
 In order to support Ohio's agricultural producers, the State of Ohio established
 the [Current Agricultural Use
 Valuation](https://www.tax.ohio.gov/real_property/cauv.aspx) (CAUV) program.
-Land enrolled in CAUV is taxed at agricultural-use value rates that are revised
+The program allows Land enrolled in CAUV to be taxed at agricultural-use value rates that are revised
 by the State of Ohio annually, rather than market value. Each county in Ohio is
 required to administer this program, as well as calculate acreage breakdown of
 each property's agricultural-use by soil type.
@@ -46,9 +46,9 @@ requirements must be met in order to qualify:
 
 
 
-Each year, individuals with property that is enrolled in CAUV are required to
+Each year, individuals with property enrolled in CAUV are required to
 submit a Renewal Application to the County Auditor. At that time, any changes to
-the agricultural-use or income are reported. The Auditor then reviews the
+the agricultural-use or income are recorded. The Auditor then reviews the
 applications for errors, and determines if any properties no longer qualify. If
 a individual fails to submit a Renewal Application, they are removed from the
 program.
@@ -72,10 +72,11 @@ CAUV. Listed below are the land types used in 2019;
 | Conservation practices limited to 25% or less of the total acreage (provide map) |
 | Other use, e.g. agritourism, biofuel production                                  |
 
-To assist land owners with submitting their Renewal Applications, and the
-Auditor with managing updates and changes to acreage calculations, the Seneca County
-Auditor's Office has developed and implemented a new GIS-centric
-workflow.
+
+The Seneca County Auditor's Office has developed and adopted a new GIS-centric
+workflow to better manage updates and changes to acreage calculations, as well
+as to assist land owners with submitting their Renewal Applications.
+
 
 ## GIS-Centric Workflow
 
@@ -83,22 +84,30 @@ The GIS-centric workflow adds 3 new methods to the previous administration
 procedures;
 - CAUV Database
 - CAUV Web Map
-- CAUV From Application
+- CAUV Form Application
 
 These methods combined will have the following affect on the current workflow;
 - Provide land owners easy access to their CAUV Values.
 - Reduce the number of incorrectly keyed applications.
-- Reduce the number of applications mailed back due to errors on the form.
-- Easily identify errors in either the submission or the database.
+- Reduce the number of applications mailed back to land owners due to needed corrections on the form.
+- Easily identify errors in either the application or the database.
 - Easily identify applications that were never submitted to the office.
 
 ### CAUV Database
 
 The CAUV database is a SQL database of each property's CAUV agricultural-use
-acreages and gross income. These values were derived from 2019's submitted
-Renewal Applications, and then compared to Agricultural Land values already in
-IasWorld's AG Land table. This allowed errors to be easily identified and
-corrected.
+acreages and gross income. [SQLite](https://sqlite.org/index.html) was used as
+the database engine since the database can be stored in a common network
+filesystem that multiple users to access without the need of a dedicated
+database server. SQLite is also the recommended database system of the Library
+of Congress for storing data.
+
+A database of specifically CAUV related information had never been built, so
+current records were derived from 2019's Renewal Applications. Overall, the
+reported acreages are accurate but not very precise, meaning small changes in
+almost every application needed to be made. To do this, the records were
+compared to Agricultural Land values already in IasWorld's AG Land table. This
+allowed errors to be easily identified and corrected.
 
 AG Land has the following fields;
 
@@ -139,15 +148,15 @@ Applications. The values were then added to the new CAUV database.
 Below is an example of a correction;
 
 ```
-Example: A property has a total of 110 acres of “CROP” in AG Land, but the CAUV
+Example: A property has a total of 102 acres of “CROP” in AG Land, but the CAUV
 agricultural use breakdown is 75 acres of "Commodity Crops" and 25 acres of
-"Hay" (Only 100 acres total). The database adjusts to 85 Acres of Commodity
+"Hay" (Only 100 acres total). The database adjusts to 77 Acres of Commodity
 Crops and 25 Acres of Hay since AG Land is considered more accurate.
 ```
 
 The logic used to calculate the acreage adjustment is identified below;
 
-  *Note: Each application is analyzed in this order. Remember, AG Land acreage
+  *Note: Each application is analyzed in this order. Again, AG Land acreage
    is considered more accurate.*
 
 - CROP == (Commodity Crop + Hay + Permanent Pasture + Other Crop + Other Use)
@@ -161,7 +170,7 @@ The logic used to calculate the acreage adjustment is identified below;
     - Missing acreage is added
   - If there is both Commercial Woodland AND Noncommercial Woodland
     - Extra acreage is removed from Noncommercial Woodland
-    - Missing acreage is taken from Noncommercial Woodland
+    - Missing acreage is added to Noncommercial Woodland
 
 
 - HOME == Homesite == 1 Ac. Only Per Parcel with home on it
@@ -180,31 +189,26 @@ The logic used to calculate the acreage adjustment is identified below;
 
 
 - Roads/Waste/Pond == (ROW + WSTE + DTCH)
-  - Opposite of other logic, the AG Land is more specific that the CAUV app in
-    this case.
+  - Opposite of other logic, AG Land is more specific than CAUV
   - Extra acreage is removed
   - Missing acreage is added
 
 
 - Total AG LAND == Total CAUV LAND == Total Acreage of all Parcels
-  - If not equal, these cases need to be individually analyzed and adjusted manually.
-
-
+  - If not equal, these cases need to be individually analyzed and adjusted manually
 
 *Note: The database built from this process is only considered a
 __Recommendation__, as agricultural-use may change year to year, which the AG
-Land table may not reflect. As errors are identified by land owners, the
-database will become much more accurate.*
+Land table may not reflect. As errors or changes are identified by land owners,
+the database will become much more accurate.*
 
 
 ### CAUV Web Map
 
 In order to provide the land owners easy access to their values, a Web Map was
 developed using ArcGIS Online's Web App Builder. The Auditor's Office already
-has several applications and GIS layers hosted on ArcGIS Online, and it is quick
-and easy to create public-facing web applications.
+has several applications and GIS layers hosted on ArcGIS Online.
 
-[Link to CAUV 2020 Web Map](https://arcg.is/1a5K05)
 
 The CAUV database was joined to the current parcel layer, and non-CAUV parcels
 were removed. The layer's pop-ups were configured to provide all the information
@@ -213,6 +217,7 @@ Web Map was configured to use the layer's Application Number field (Unique ID of
 Renewal Applications). Any private information about the parcels were then
 removed (i.e. Owner Name).
 
+[Link to CAUV 2020 Web Map](https://arcg.is/1a5K05)
 
 ### CAUV Form Application
 
@@ -221,12 +226,14 @@ to the CAUV database, a [CAUV Form Application](http://192.168.26.116:5000/signi
 was developed using the python web-application framework
 [Flask](https://palletsprojects.com/p/flask/). The application runs on the local
 intranet, so only computers on the Auditor's network can access the web page.
-The application serves as a GUI wrapper around the CAUV database, so users can
-easily input a submission's values, check for errors against the database, and
-submit the new values to the database.
 
-The database and application server are stored in the O:Drive which only the
+The application serves as a Graphical User Interface (GUI) wrapper around the
+CAUV database, so users can easily input a submission's values, check for errors
+against the database, and submit the new values to the database.
+
+The application's serve and database are stored in the O:Drive which only the
 Auditor's Office has access to;
+
 ```
 O:\\GIS\\CAUV_Form
 ```
@@ -238,7 +245,9 @@ application only works if the server is running.*
 [Link to CAUV Form Application's code repository](https://github.com/bren96/CAUVForm)
 
 
-## General Procedures Outline:
+## CAUV Procedures Outline:
+The following is an overview of the Seneca County Auditor's workflow;
+
 #### 1. Send out Renewal & Initial Applications
 
 - Generate Mailing List using IasWorld
@@ -295,7 +304,7 @@ application only works if the server is running.*
 
 ## Field Review Stage
 
-*More detailed notes on CAUV Field Review Stage*
+The following are more detailed notes on CAUV Field Review Stage;
 
 #### 1. Pre-Field
 - Assign Work Orders using Pivot Point's Work Order Manager
