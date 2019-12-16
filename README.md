@@ -3,9 +3,8 @@ This guide was created to compile years of notes and documents regarding
 the development and implementation of GIS in Seneca County.
 
 The guides are broken down into regular, annual, and special projects. The
-documents are edited in markdown and then compiled to HTML for easy readability
-and sharing. The primary goal of this project is to provide documentation,
-transparency, and access to Seneca County's GIS data and operations.
+primary goal of this project is to provide documentation, transparency, and
+access to Seneca County's GIS data and operations.
 
 ## Regular Projects
 
