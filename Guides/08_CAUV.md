@@ -31,17 +31,17 @@ requirements must be met in order to qualify:
   |---------------------|------------------------------------------|
   | Commodity Crops     | Corn, Soybean, Wheat, Oats, Etc.         |
   | Hay                 | Baled at least twice a year              |
-  | Permanent Pasture   | Used for commerical animal husbandry     |
-  | Commerical Woodland | Must have certified forestry plan        |
+  | Permanent Pasture   | Used for commercial animal husbandry     |
+  | Commercial Woodland | Must have certified forestry plan        |
   | Other Crops         | Nursery Stock, Vegetables, Flowers, etc. |
-  | Other Use           | Algaculture, Aquaculture, Aplculture     |
+  | Other Use           | Algaculture, Aquaculture, Apiculture     |
 
 - Property enrolled in a Conservation Program. (*Listed Below*)
 
-  | Accepted Conservation Programs | Description                                                                 |
-  |--------------------------------|-----------------------------------------------------------------------------|
-  | Conservation Reserve Program   | Must provide FSA Contract & Map                                             |
-  | Conservation Practice 25%      | Land used to abate soil erosion. Only accept up to 25% of all land in CAUV. |
+  | Accepted Conservation Programs | Description                                       |
+  |--------------------------------|---------------------------------------------------|
+  | Conservation Reserve Program   | Must provide FSA Contract & Map                   |
+  | Conservation Practice 25%      | Land used to abate soil erosion. Only 25% of Land |
 
 - Gross annual income produced from Agricultural Products >= $2,500.(*Must
   provide evidence*)
@@ -91,7 +91,7 @@ procedures;
 These methods will improve the current workflow in the following ways;
 - Provide land owners easy access to their CAUV Values.
 - Reduce the number of incorrectly keyed applications.
-- Reduce the number of applications mailed back to land owners due to needed corrections on the form.
+- Reduce the number of notices mailed back to land owners.
 - Identify errors in either the application or the database.
 - Identify applications that were never submitted to the office.
 
@@ -197,7 +197,8 @@ The logic used to calculate the acreage adjustment is identified below;
 
 
 - Total AG LAND == Total CAUV LAND == Total Acreage of all Parcels
-  - If not equal, these cases need to be individually analyzed and adjusted manually
+  - If not equal, these cases need to be individually analyzed and adjusted
+    manually
 
 *Note: The database built from this process is only considered a
 __Recommendation__, as agricultural-use may change year to year, which the AG
@@ -244,7 +245,7 @@ O:\\GIS\\CAUV_Form
 application only works if the server is running.*
 
 
-[Link to CAUV Form Application's code repository](https://github.com/bren96/CAUVForm)
+[Link to code repository](https://github.com/bren96/CAUVForm)
 
 
 ## CAUV Procedures Outline:
@@ -267,7 +268,8 @@ The following is an overview of the Seneca County Auditor's workflow;
       returned to applicant.
     - If an application should be reviewed in the field, set field review flag
       in IasWorld and include why in Note Field.
-    - If application does not meet income requirements, indicate so in note field in IasWorld.
+    - If application does not meet income requirements, indicate so in note
+      field in IasWorld.
 
 
 
@@ -287,7 +289,7 @@ The following is an overview of the Seneca County Auditor's workflow;
 
 #### 7. Field Review
 
-- Pull all "flagged for field review" applications and notes using IasWorld's Inquire.
+- Pull all "flagged for field review" applications using IasWorld's Inquire.
 - Send work order list to Pivot Point
 - Field check parcels of each Application
 
@@ -317,7 +319,7 @@ The following are more detailed notes on CAUV Field Review Stage;
 - Review CAUV Flag Review Note to determine necessary checks
 - If there is a dwelling go to the front door & knock/ring doorbell twice
 - If homeowner answers, explain reason for visit and verify/correct necessary data
-- If no one is home leave a doorhanger explaining the reason for visit and request owner to call office
+- If owner is not home, leave a doorhanger requesting owner to call office
 - Make necessary notes/changes/recommendations in Pivot Point Field App
 - Take photos of dwellings, all outbuildings/land
 - Set status of Work Order in Pivot Point Field App
