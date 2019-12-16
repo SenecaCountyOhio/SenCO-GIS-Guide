@@ -29,12 +29,8 @@ transparency, and access to Seneca County's GIS data and operations.
 - [Conservation Practices 25% Program](Guides/12_Con25.md)
 
 ## Authors & Acknowledgment
-Brendan Cullen  
-GIS Programmer/Analyst  
-Seneca County Auditor’s Office  
-2019
-
-This document was produced from internal notes created by Alex Rodd in 2018.
+Brendan Cullen - 2019  
+Alex Rodd - 2018
 
 ## License
-Only Seneca County Ohio Employees may contribute to this document.
+Only Seneca County, Ohio Employees may contribute to this document.
