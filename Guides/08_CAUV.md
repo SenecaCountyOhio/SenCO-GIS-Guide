@@ -26,6 +26,7 @@ must first determine if the property qualifies for CAUV. One of the following
 requirements must be met in order to qualify:
 
 - Land Devoted Exclusively for Agricultural Use >= 10 Acres. (*Listed Below*)
+
   | Agricultural Use    | Description                              |
   |---------------------|------------------------------------------|
   | Commodity Crops     | Corn, Soybean, Wheat, Oats, Etc.         |
@@ -36,6 +37,7 @@ requirements must be met in order to qualify:
   | Other Use           | Algaculture, Aquaculture, Aplculture     |
 
 - Land in Accepted Conservation Program. (*Listed Below*)
+
   | Accepted Conservation Programs | Description                                                                 |
   |--------------------------------|-----------------------------------------------------------------------------|
   | Conservation Reserve Program   | Must provide FSA Contract & Map                                             |
