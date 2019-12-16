@@ -31,11 +31,11 @@ Dataset.
 ## Addressing Authorities in Seneca County
 Addressing Authorities are the government entities responsible for the
 assignment of addresses. Currently, there are nine Addressing Authorities in
-Seneca County. [Figure 1](#figure-1-seneca-county-addressing-authorities)
-lists the Addressing Authorities and their contact information. Incorporated
-areas of the county are responsible for their own addressing system. The Ohio
-Revised Code (ORC) affirms the county only has the right to assign and change
-addresses in unincorporated areas. The ORC directly states:
+Seneca County. Figure 1 lists the Addressing Authorities and their contact
+information. Incorporated areas of the county are responsible for their own
+addressing system. The Ohio Revised Code (ORC) affirms the county only has the
+right to assign and change addresses in unincorporated areas. The ORC directly
+states:
 
 > The board of county commissioners may designate street names and assign numbers
 > to buildings along streets in unincorporated areas. The owners of such buildings
@@ -77,12 +77,12 @@ Seneca County Auditor's Office
 | Zip Code | 44883 |
 
 
-Seneca County uses an addressing grid indicated in [Figure2](#figure-2-highway-map-of-seneca-county-ohio),
-“Highway Map of Seneca County, Ohio” produced by the Seneca County Engineer.
-Each axis generally aligns with the Township Sections of Seneca County. The
-Township Sections are approximately 1 square mile, creating an evenly spaced
-grid of address blocks across the county. The following values need to be
-determined (in this order) to calculate the final House Number;
+Seneca County uses an addressing grid indicated in Figure 2, “Highway Map of
+Seneca County, Ohio” produced by the Seneca County Engineer. Each axis generally
+aligns with the Township Sections of Seneca County. The Township Sections are
+approximately 1 square mile, creating an evenly spaced grid of address blocks
+across the county. The following values need to be determined (in this order) to
+calculate the final House Number;
 
 #### Address Block
 A block outlined by the addressing grid. The addressing
@@ -153,8 +153,7 @@ The following GIS layers contain all the information needed to assign an address
 A .aprx can be found at “B:\\Projects\\Addressing\\County_Addressing”, which
 contains all these layers. The measure tool in ArcGIS Pro can be used to
 determine the distances outlined in the Addressing Procedure. As many of the
-fields in Current_Address feature class should be filled as possible.
-[Figure 3](https://github.com/bren96/SenCO-GIS-Guide/blob/master/Guides/Addressing.md#figure-3--address-shapefile-attribute-metadata)
+fields in Current_Address feature class should be filled as possible. Figure 3
 provides a description of each field, and how the data should be entered.
 
 A python geoprocessing script has begun to be developed in order to automate
