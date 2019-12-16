@@ -7,9 +7,6 @@ documents are edited in markdown and then compiled to HTML for easy readability
 and sharing. The primary goal of this project is to provide documentation,
 transparency, and access to Seneca County's GIS data and operations.
 
-
-[Link to Github Pages Site](https://bren96.github.io/SenCO-GIS-Guide/)
-
 ## Regular Projects
 
 - [Seneca County Addressing](Guides/02_Addressing.md)
