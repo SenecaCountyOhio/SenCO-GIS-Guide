@@ -16,9 +16,9 @@ Each county in Ohio is required to administer this program, as well as to
 calculate each property's acres of agricultural-use by soil type.
 
 In order to efficiently and accurately calculate the acreage breakdown, Seneca
-County invested in a Geographic Information System (GIS). The GIS allows the
-county to accurately map and maintain the agricultural-use and soil information,
-as well as to quickly perform the complex analysis of calculating the acres of
+County invested in a Geographic Information System (GIS). The GIS is used to
+accurately map and maintain the agricultural-use and soil information, as well
+as to quickly perform the complex analysis of calculating the acres of
 agricultural-use by soil type.
 
 When a property owner requests to be enrolled in the program, the County Auditor
