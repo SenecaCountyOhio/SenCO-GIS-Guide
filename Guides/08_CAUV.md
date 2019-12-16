@@ -2,9 +2,9 @@
 # Current Agricultural Use Valuation Program
 
 ## Purpose
-The purpose of this paper is to outline Seneca County's administration of the
-Current Agricultural Use Valuation program, as well as document changes to the
-process in 2019 and 2020.
+The purpose of this document is to provide an overview of Seneca County's
+administration of the Current Agricultural Use Valuation program, as well as
+identify changes to the process in 2019 and 2020.
 
 ## Background
 In order to support Ohio's agricultural producers, the State of Ohio established
