@@ -11,8 +11,8 @@ transparency, and access to Seneca County's GIS data and operations.
 [Link to Github Pages Site](https://bren96.github.io/SenCO-GIS-Guide/)
 
 ## Ongoing Projects
-[Seneca County Addressing](Guides/02_Addressing.md)
-[Seneca County Auditor's Office Web GIS](Guides/03_Auditor_WebGIS.md)
+- [Seneca County Addressing](Guides/02_Addressing.md)
+- [Seneca County Auditor's Office Web GIS](Guides/03_Auditor_WebGIS.md)
 
 ## Annual Projects
 
