@@ -1,4 +1,4 @@
-[Return to Homepage](../index.html)
+[Return to Homepage](../)
 # Current Agricultural Use Valuation Program
 
 ## Purpose

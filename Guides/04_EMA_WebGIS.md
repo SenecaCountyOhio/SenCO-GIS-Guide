@@ -1,4 +1,4 @@
-[Return to Homepage](../index.html)
+[Return to Homepage](../)
 # Seneca County EMA WebGIS
 
 The Seneca County [Emergency Management Association](https://senecacountyohio.gov/seneca-county-emergency-services/)

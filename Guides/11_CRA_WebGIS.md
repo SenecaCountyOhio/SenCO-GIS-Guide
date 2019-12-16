@@ -1,2 +1,2 @@
-[Return to Homepage](../index.html)
+[Return to Homepage](../)
 # Community Reinvestment Areas WebGIS
