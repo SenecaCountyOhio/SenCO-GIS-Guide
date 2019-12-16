@@ -10,22 +10,22 @@ identify changes to the process in 2019 and 2020.
 In order to support Ohio's agricultural producers, the State of Ohio established
 the [Current Agricultural Use
 Valuation](https://www.tax.ohio.gov/real_property/cauv.aspx) (CAUV) program.
-The program allows Land enrolled in CAUV to be taxed at agricultural-use value rates that are revised
-by the State of Ohio annually, rather than market value. Each county in Ohio is
-required to administer this program, as well as calculate acreage breakdown of
-each property's agricultural-use by soil type.
+The program allows Land enrolled in CAUV to be taxed at agricultural-use value
+rates that are revised by the State of Ohio annually, rather than market value.
+Each county in Ohio is required to administer this program, as well as to
+calculate each property's acres of agricultural-use by soil type.
 
 In order to efficiently and accurately calculate the acreage breakdown, Seneca
 County invested in a Geographic Information System (GIS). The GIS allows the
 county to accurately map and maintain the agricultural-use and soil information,
-as well as perform the complex analysis of breaking down the acreages of
+as well as to quickly perform the complex analysis of calculating the acres of
 agricultural-use by soil type.
 
 When a property owner requests to be enrolled in the program, the County Auditor
 must first determine if the property qualifies for CAUV. One of the following
 requirements must be met in order to qualify:
 
-- Land Devoted Exclusively for Agricultural Use >= 10 Acres. (*Listed Below*)
+- Property Devoted Exclusively for Agricultural Use >= 10 Acres. (*Listed Below*)
 
   | Agricultural Use    | Description                              |
   |---------------------|------------------------------------------|
@@ -36,7 +36,7 @@ requirements must be met in order to qualify:
   | Other Crops         | Nursery Stock, Vegetables, Flowers, etc. |
   | Other Use           | Algaculture, Aquaculture, Aplculture     |
 
-- Land in Accepted Conservation Program. (*Listed Below*)
+- Property enrolled in a Conservation Program. (*Listed Below*)
 
   | Accepted Conservation Programs | Description                                                                 |
   |--------------------------------|-----------------------------------------------------------------------------|
@@ -48,17 +48,17 @@ requirements must be met in order to qualify:
 
 
 
-Each year, individuals with property enrolled in CAUV are required to
-submit a Renewal Application to the County Auditor. At that time, any changes to
-the agricultural-use or income are recorded. The Auditor then reviews the
+Each year, individuals with property enrolled in CAUV are required to submit a
+Renewal Application to the County Auditor. At that time, any changes to the
+agricultural-use or income are recorded. The Auditor then reviews the
 applications for errors, and determines if any properties no longer qualify. If
-a individual fails to submit a Renewal Application, they are removed from the
-program.
+an individual fails to submit a Renewal Application, or their property no longer
+qualifies 3 years in row, they are removed from the program.
 
-Occasionally, the program's requirements are updated by the State of Ohio, which
-the County Auditors are required to comply with. Since 2017, the Renewal
+Occasionally, the program's requirements are adjusted by the State of Ohio,
+which the County Auditors are required to comply with. Since 2017, the Renewal
 Applications require a written and precise breakdown of all land enrolled in
-CAUV. Listed below are the land types used in 2019;
+CAUV. Listed below are the land types used in 2019's form;
 
 | Anticipated land use for the current year                                        |
 |----------------------------------------------------------------------------------|
@@ -88,19 +88,19 @@ procedures;
 - CAUV Web Map
 - CAUV Form Application
 
-These methods combined will have the following affect on the current workflow;
+These methods will improve the current workflow in the following ways;
 - Provide land owners easy access to their CAUV Values.
 - Reduce the number of incorrectly keyed applications.
 - Reduce the number of applications mailed back to land owners due to needed corrections on the form.
-- Easily identify errors in either the application or the database.
-- Easily identify applications that were never submitted to the office.
+- Identify errors in either the application or the database.
+- Identify applications that were never submitted to the office.
 
 ### CAUV Database
 
 The CAUV database is a SQL database of each property's CAUV agricultural-use
 acreages and gross income. [SQLite](https://sqlite.org/index.html) was used as
-the database engine since the database can be stored in a common network
-filesystem that multiple users to access without the need of a dedicated
+the database engine since the database can be stored in a network
+filesystem that multiple users can access without the need of a dedicated
 database server. SQLite is also the recommended database system of the Library
 of Congress for storing data.
 
@@ -207,10 +207,9 @@ the database will become much more accurate.*
 
 ### CAUV Web Map
 
-In order to provide the land owners easy access to their values, a Web Map was
+In order to provide land owners easy access to their values, a Web Map was
 developed using ArcGIS Online's Web App Builder. The Auditor's Office already
 has several applications and GIS layers hosted on ArcGIS Online.
-
 
 The CAUV database was joined to the current parcel layer, and non-CAUV parcels
 were removed. The layer's pop-ups were configured to provide all the information
@@ -229,12 +228,13 @@ was developed using the python web-application framework
 [Flask](https://palletsprojects.com/p/flask/). The application runs on the local
 intranet, so only computers on the Auditor's network can access the web page.
 
-The application serves as a Graphical User Interface (GUI) wrapper around the
-CAUV database, so users can easily input a submission's values, check for errors
-against the database, and submit the new values to the database.
+The application serves as a Graphical User Interface (GUI) to the CAUV database,
+so users can easily input a submission's values, check for errors against the
+database, and submit the new values to the database.
 
-The application's serve and database are stored in the O:Drive which only the
-Auditor's Office has access to;
+The application's server must by running at all times. The application's server
+and database are stored in the O:Drive which only the Auditor's Office has
+access to;
 
 ```
 O:\\GIS\\CAUV_Form
