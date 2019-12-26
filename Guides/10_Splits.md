@@ -5,7 +5,7 @@ When a parcel is split or combined, the land type acreage breakdown must be calc
 
 *Note: The extension is currently only available for ArcGIS Desktop.*
 
-Alex Rodd wrote a detailed set of insturctions (with screenshots), to show users how to use the tool. The instructions are located here;
+Alex Rodd wrote a detailed set of instructions (with screenshots), to show users how to use the tool. The instructions are located here;
 ```
 B:\GIS Documents\Welcome\Alex's Notes\Process in order to run a CAUV Calc.docx
 ```
