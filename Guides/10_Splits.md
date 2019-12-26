@@ -10,4 +10,4 @@ Alex Rodd wrote a detailed set of instructions (with screenshots), to show users
 B:\GIS Documents\Welcome\Alex's Notes\Process in order to run a CAUV Calc.docx
 ```
 
-*Note: I updated Alex's inustructions since the land use layer's structure was changed slightly. You can read more about that [here](./06_Land_Use.md)*
+*Note: I updated Alex's instructions since the land use layer's structure was changed slightly. You can read more about that [here](./06_Land_Use.md)*
