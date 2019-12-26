@@ -5,12 +5,12 @@
 The Parcel Layer is maintained by the [Seneca County Engineer's](https://sencoeng.com/) Tax Map Office.
 The layer itself was originally developed by Mark Zimmerman (the County
 Engineer) in a CAD environment. It was later brought into an ArcView Landscape
-and eventually then loaded into a Parcel Fabric.
+and then loaded into a Parcel Fabric.
 
 Parcels were originally maintained on paper, and drafted using different
-techniques. The need for a digital representation was eventually brought to
+techniques. The need for a digital representation was brought to
 light and Mark took it upon himself to learn GIS and develop the layer we use
-today. The layer is maintained by the Tax Map Staff using ArcGIS.
+today. The layer is maintained by the Tax Map Staff using ArcGIS Desktop.
 
 
 ## Regular Data Updates
