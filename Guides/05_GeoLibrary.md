@@ -28,7 +28,7 @@ The primary themes include;
 
 - Administrative Boundaries
 - Emergency Management
-- Environmental
+- Environment
 - Imagery
 - Transportation
 - Land & Tax Records
@@ -67,7 +67,7 @@ multiple areas of reference.
 │   ├───Fire
 │   └───Police
 |
-├───Environmental
+├───Environment
 │   ├───Ditch
 │   ├───Elevation
 │   ├───Geology
