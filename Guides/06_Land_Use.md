@@ -44,7 +44,7 @@ datasets can then be combined when used for valuation of properties.
 Rather than maintain one large dataset trying to describe Land Codes and Land
 Programs, the improved workflow will separate General Land Codes and Land
 Programs information. Land Codes usually describes physical land types
-(Woodland, River, Cropland, etc.) while Land Programs documents Federal, State,
+(Woodland, River, Cropland, etc.) while Land Programs describe Federal, State,
 or County managed land contracts that identify how people are using the land
 (Conservation, Commercial Woodland, Golf Course, etc.)
 
