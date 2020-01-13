@@ -9,8 +9,9 @@ access to Seneca County's GIS data and operations.
 ## Regular Projects
 
 - [Seneca County Addressing](Guides/Addressing.md)
+- [Seneca County ArcGIS Hub](Guides/ArcHub.md)
 - [Seneca County Auditor's Office Web GIS](Guides/Auditor_WebGIS.md)
-- [Seneca County Emergency Managment Association's Web GIS](Guides/EMA_WebGIS.md)
+- [Seneca County Emergency Management Association's Web GIS](Guides/EMA_WebGIS.md)
 - [Seneca County GeoLibrary](Guides/GeoLibrary.md)
 - [Seneca County Land Use Layer](Guides/Land_Use.md)
 - [Seneca County Parcel Layer](Guides/Parcel_Layer.md)
