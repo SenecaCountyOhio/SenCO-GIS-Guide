@@ -1,4 +1,3 @@
-[Return to Homepage](../)
 # Permit Field Inspections
 The Seneca County Auditor's Office partners with a 3rd Party Vendor, [Pivot Point](https://pivotpoint.us/), to manage annual field inspections performed by our in-house inspector. Permits are assigned and statistics can be reviewed using their [web interface](https://field.pivotpoint.us/DataSetStats?dataSetID=7668ba65-3806-4dca-aa3a-494f27a272fb).
 

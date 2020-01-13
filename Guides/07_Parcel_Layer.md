@@ -1,4 +1,3 @@
-[Return to Homepage](../)
 # Seneca County Parcel Layer
 
 ## Background

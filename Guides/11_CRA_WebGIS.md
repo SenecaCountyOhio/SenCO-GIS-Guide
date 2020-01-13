@@ -1,4 +1,3 @@
-[Return to Homepage](../)
 # Community Reinvestment Areas WebGIS
 
 The following is a description of Community Reinvestment Areas by The Ohio Development Services Agency;
