@@ -8,24 +8,24 @@ access to Seneca County's GIS data and operations.
 
 ## Regular Projects
 
-- [Seneca County Addressing](Guides/02_Addressing.md)
-- [Seneca County Auditor's Office Web GIS](Guides/03_Auditor_WebGIS.md)
-- [Seneca County Emergency Managment Association's Web GIS](Guides/04_EMA_WebGIS.md)
-- [Seneca County GeoLibrary](Guides/05_GeoLibrary.md)
-- [Seneca County Land Use Layer](Guides/06_Land_Use.md)
-- [Seneca County Parcel Layer](Guides/07_Parcel_Layer.md)
+- [Seneca County Addressing](Guides/Addressing.md)
+- [Seneca County Auditor's Office Web GIS](Guides/Auditor_WebGIS.md)
+- [Seneca County Emergency Managment Association's Web GIS](Guides/EMA_WebGIS.md)
+- [Seneca County GeoLibrary](Guides/GeoLibrary.md)
+- [Seneca County Land Use Layer](Guides/Land_Use.md)
+- [Seneca County Parcel Layer](Guides/Parcel_Layer.md)
 
 
 ## Annual Projects
 
-- [Current Agricultural Use Valuation](Guides/08_CAUV.md)
-- [Permit Inspections](Guides/09_Permits.md)
-- [Parcel Splits & Combinations](Guides/10_Splits.md)
+- [Current Agricultural Use Valuation](Guides/CAUV.md)
+- [Permit Inspections](Guides/Permits.md)
+- [Parcel Splits & Combinations](Guides/Splits.md)
 
 ## Special Projects
 
-- [Community Reinvestment Areas](Guides/11_CRA_WebGIS.md)
-- [Conservation Practices 25% Program](Guides/12_Con25.md)
+- [Community Reinvestment Areas](Guides/CRA_WebGIS.md)
+- [Conservation Practices 25% Program](Guides/Con25.md)
 
 ## Authors & Acknowledgment
 Brendan Cullen - 2019  
