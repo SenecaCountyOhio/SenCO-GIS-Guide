@@ -2,7 +2,7 @@
 ## Background
 ArcGIS Hub is a part of ESRI's Geospatial Cloud product, which comes with the county's ArcGIS Pro License. It enables organization to develop easily configurable websites aimed towards sharing GIS data, projects, and initiatives.
 
-[Seneca County's ArcGIS Hub](https://portal-senecacountygis.hub.arcgis.com/) is a data portal aimed to provide public access to the county's GIS resources. The portal is called the "Seneca County GeoLibrary" and is structured to match the Seneca County GeoLibrary model adapted in 2019.
+[Seneca County's ArcGIS Hub](https://portal-senecacountygis.hub.arcgis.com/) is a data portal designed to provide public access to the county's GIS resources. The portal is called the "Seneca County GeoLibrary" and is structured to match the Seneca County GeoLibrary model adapted in 2019.
 
 Only geographic information maintained primarily by the county is located here. This is so the county does not spend money on hosting information already available through other organizations at either the State or Federal level.
 
