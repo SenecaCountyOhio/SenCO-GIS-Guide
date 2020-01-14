@@ -1,8 +1,8 @@
 # Seneca County's ArcGIS Hub
 ## Background
-ArcGIS Hub is a part of ESRI's Geospatial Cloud product, which comes with the county's ArcGIS Pro License. It enables organization to develop easily configurable websites aimed towards sharing GIS data, projects, and initiatives.
+ArcGIS Hub is a part of ESRI's Geospatial Cloud product, which comes with the county's ArcGIS Pro License. It enables organizations to develop easily configurable websites aimed towards sharing GIS data, projects, and initiatives.
 
-[Seneca County's ArcGIS Hub](https://portal-senecacountygis.hub.arcgis.com/) is a data portal designed to provide public access to the county's GIS resources. The portal is called the "Seneca County GeoLibrary" and is structured to match the Seneca County GeoLibrary model adapted in 2019.
+[Seneca County's ArcGIS Hub](https://portal-senecacountygis.hub.arcgis.com/) is a data portal designed to provide public access to the county's GIS resources. The portal is called the "Seneca County GeoLibrary" and is structured to match the [Seneca County GeoLibrary model](https://github.com/SenecaCountyOhio/SenCO-GIS-Guide/blob/master/Guides/GeoLibrary.md) adapted in 2019.
 
 Only geographic information maintained primarily by the county is located here. This is so the county does not spend money on hosting information already available through other organizations at either the State or Federal level.
 
@@ -43,7 +43,9 @@ represent a commitment on the part of Seneca County in the future.
 ```
 
 ## Portal Structure
-Each layer hosted in ArcGIS Online is categorized and shared with the ArcGIS Hub groups, as well as their GeoLibrary category group. On the portal, when a user selects the type of information they are looking for, they are redirected to a distinct category group. For example, if they click on the Administrative Boundaries tag, they are shown all the layers that are shared with the "Seneca County GeoLibrary - Administrative Boundaries" group. All the info in those groups are automatically shared to the ArcGIS Hub group. Some types of information bridge multiple category types, and so a layer can be shared with as many groups as needed. The following is an outline of the information currently hosted through the GeoLibrary;
+Each layer hosted in ArcGIS Online is categorized and shared with the ArcGIS Hub groups, as well as their GeoLibrary category group. On the portal, when a user selects the type of information they are looking for, they are redirected to a distinct category group. For example, if they click on the Administrative Boundaries tag, they are shown all the layers that are shared with the "Seneca County GeoLibrary - Administrative Boundaries" group.
+
+Some types of information bridge multiple category types, and so a layer can be shared with as many groups as needed. The following is an outline of the information currently hosted through the GeoLibrary;
 
 ### Administrative Boundaries
 - Corporation Boundaries
