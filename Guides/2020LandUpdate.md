@@ -4,13 +4,40 @@ Auditor to perform a large update of the Land Use & Cover GIS layer. The
 original land use dataset was developed by analyzing each parcel and referencing
 aerial imagery and other more generalized datasets. Because the individual
 components were not mapped separately, revising and updating this information
-will be a manual process. Looking forward, I have outlined a few ways to both
-update the dataset in 2020, as well as develop a system to make the information
-easily updatable in the future. Generally, I consider the new system a
-"deconstructed" GIS layer that is made up of many manageable components that are
-independent of one another, yet can be quickly combined or "reconstructed" for
-tax valuations. The following is an outline of the different aspects of the GIS
-layer that should be updated.
+will be a manual process.
+
+Looking forward, I have outlined a few ways to both update the dataset in 2020,
+as well as develop a system that is easy to update in the future. Generally, I
+consider the new system a "deconstructed" GIS layer that is made up of
+manageable and independent components. The layers can then be quickly combined
+or "reconstructed" for tax valuations. The following is a breakdown of the
+"deconstructed" land dataset.
+
+```
+|- Land_Combined
+|   |- Land_Programs
+|          |- CRP
+|          |- CONP
+|          |- WRP
+|          |- FMP
+|          |- Designated Forest Land
+|   |- Land_General
+|          |- ROW
+|          |- HOME
+|          |- DITCH
+|             |- Ditches
+|             |- Hydrography
+|          |- WOOD
+|          |- CROP
+|
+
+```
+In this system, all the independent components are combined to form more general
+layers that are combined again to produce the final layer. For example, Ditches
+could be updated all at one time, and then recombined with Hydrography,
+recombined to the Land_General layer, and then recombined to the final
+Land_Combined layer. This process can be performed again and again without
+without having to manually re-digitize each affected feature in the final layer.
 
 ## Ditch/Hydrography
 Ditches and Hydrography are currently the same land code since they are valued
