@@ -42,10 +42,12 @@ I recommend the following procedures to update ditch/hydrography;
 - Assign a buffer to the merged dataset.
 - Perform an "update" geoprocess on the land layer without ditch/hydrography.
 
+
 After these steps the following will have been produced;
 - A high resolution and accurate Hydrographic Line dataset.
 - A general land layer without ditch/hydrographic attributes.
 - A dataset structure meant to be easily updated in the future.
+
 
 ## Homesites
 Homesites are representations of building outlines and non-agricultural land
