@@ -3,14 +3,14 @@ A mass overhaul of Tax Values can occur in 2020. This opportunity will allow the
 Auditor to perform a large update of the Land Use & Cover GIS layer. The
 original land use dataset was developed by analyzing each parcel and referencing
 aerial imagery and other more generalized datasets. Because the individual
-components were not mapped separately, revising and mass updating this
-information will be a manual process. Looking forward, I have outlined a few
-ways to both update the dataset in 2020, as well as develop a system to make the
-information easily updatable in the future. Generally, I consider the new system
-a "deconstructed" GIS layer, that is made up of many manageable components that
-are independent of one another, but can also be quickly combined or
-"reconstructed" for tax valuations. The following is an outline of the different
-aspects of the GIS layer that should be updated.
+components were not mapped separately, revising and updating this information
+will be a manual process. Looking forward, I have outlined a few ways to both
+update the dataset in 2020, as well as develop a system to make the information
+easily updatable in the future. Generally, I consider the new system a
+"deconstructed" GIS layer that is made up of many manageable components that are
+independent of one another, yet can be quickly combined or "reconstructed" for
+tax valuations. The following is an outline of the different aspects of the GIS
+layer that should be updated.
 
 ## Ditch/Hydrography
 Ditches and Hydrography are currently the same land code since they are valued
@@ -20,8 +20,8 @@ GIS Layer. Hydrography information is maintained at the federal level by the
 USGS. The USGS Hydrography Dataset is mapped at a low resolution, meaning many
 of the smaller creeks are spatially inaccurate, if mapped at all.
 
-Due to the precise nature of Tax Valuations, the original land dataset
-accurately represented many of the smaller creeks and rivers, however,
+Due to the precise nature of Tax Valuations, the original development of the
+land dataset accurately mapped many of the smaller creeks and rivers, however,
 hydrographic line data was never created, and so it is difficult to update this
 information to reflect changes in the USGS dataset.
 
@@ -48,15 +48,27 @@ After these steps the following will have been produced;
 - A dataset structure meant to be easily updated in the future.
 
 ## Homesites
-Homesites are mappe
-New Construction & Deconstruction Permits
+Homesites are representations of building outlines and non-agricultural land
+(a.k.a. residential grass yard, driveway, etc.). Homesites are restricted to 1
+acre, regardless if it is larger or smaller than 1 acre. A comprehensive review
+of Homesites should be performed, to ensure the GIS polygons are 1 acre in size,
+and if any homesites should be added or removed.
 
-Building Outline Shapefile from Pictometry
+The land use layer has not taken into account any new constructions or
+deconstruction completed permits in the past year. Homesites have been mapped
+when a property is reviewed after a parcel split or combination, but not
+according to completed permits. Permits completed in the past year should be
+individually reviewed and then homesites updated in the GIS layer.
+
+Pictometry will be performing a flight in 2020, and will provide us a large
+dataset containing changes in building outlines compared to 2018. In combination
+with completed permits, these should be individually reviewed and updated in the
+GIS layer.
 
 ## Bruce Harris Land Use Audit
-
-Identify areas that need to be updated
-
-## Pictometry Change-finder
-
-Identify areas that need to be udpated
+Bruce Harris has been contracted to perform an audit of our Land Use info so
+that agricultural land information matches market land information. Market and
+land information have similar, yet differing land codes, and their analysis will
+identify areas that in the GIS layer that do not match what is in our IASWorld
+database. The land us GIS layer should be updated to correct any differences
+Bruce Harris identifies.

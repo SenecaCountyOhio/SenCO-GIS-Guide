@@ -27,6 +27,7 @@ access to Seneca County's GIS data and operations.
 
 - [Community Reinvestment Areas](Guides/CRA_WebGIS.md)
 - [Conservation Practices 25% Program](Guides/Con25.md)
+- [2020 comprehensive Land Update](Guides/2020LandUpdate.md)
 
 ## Authors & Acknowledgment
 Brendan Cullen - 2019  
