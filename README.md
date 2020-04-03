@@ -30,6 +30,7 @@ access to Seneca County's GIS data and operations.
 - [2020 Comprehensive Land Update](Guides/2020LandUpdate.md)
 
 ## Authors & Acknowledgment
+Alex Vogelgesang - 2020
 Brendan Cullen - 2019  
 Alex Rodd - 2018
 
