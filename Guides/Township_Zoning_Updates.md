@@ -18,6 +18,6 @@ To do this, click "Select By Attributes" and choose your zoning layer as the lay
 
 Now that all the parcels outside of the Township that you're update the zoning for are selected, you can delete all of the unneeded parcels. Now you need to add a column to the attributes table for the Zoning purpose. 
 
-Once you have that created, then you will need to do "Find and Replace" in the attributes table for the new column and replace all of the "<Null>" fields with "Agricultural". 
+Once you have that created, then you will need to do "Find and Replace" in the attributes table for the new column and replace all of the "< Null >" fields with "Agricultural". 
   
 Now you can select by attribute for the Parcel(s) you need to change and style them to show the different Zonings for the parcels in the township
