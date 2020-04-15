@@ -14,7 +14,7 @@ You might have to go into the attributes table for some of the parcels to get th
 
 After you run the spatial join and confirmed that all of the parcels you are updating are in the Township you need them to be in, you will need to remove all of the parcels that are in Townships that you are not doing the update for. 
 
-To do this, click "Select By Attributes" and choose your zoning layer as the layer you want to search in. You will want to make a new SQL expression to select all of the parcels in Townships you are not working in, so when I created the Hopewell Township Zoning map, I did "Name <> 'Hopewell Township'", the "<>" tells ARCGIS Pro to select anything that doesn't have Hopewell Township in the "Name" column of the attributes table. 
+To do this, click "Select By Attributes" and choose your zoning layer as the layer you want to search in. You will want to make a new SQL expression to select all of the parcels in Townships you are not working in, so when I created the Hopewell Township Zoning map, I did "Name <> 'Hopewell Township'", the "<>" tells ARCGIS Pro to select anything that doesn't have Hopewell Township in the "Name" column of the attributes table. When creating a new Zoning map, the expression will be "Name <> '[Township Name]'".
 
 Now that all the parcels outside of the Township that you're update the zoning for are selected, you can delete all of the unneeded parcels. Now you need to add a column to the attributes table for the Zoning purpose. 
 
