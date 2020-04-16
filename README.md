@@ -28,7 +28,7 @@ access to Seneca County's GIS data and operations.
 - [Community Reinvestment Areas](Guides/CRA_WebGIS.md)
 - [Conservation Practices 25% Program](Guides/Con25.md)
 - [2020 Comprehensive Land Update](Guides/2020LandUpdate.md)
-- [Fostoria Community Map](Guides/Fostoria_map.md)
+- [Fostoria Community Map](Guides/Fostoria_Map.md)
 
 ## Authors & Acknowledgment
 Alex Vogelgesang - 2020   
