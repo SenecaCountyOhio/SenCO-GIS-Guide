@@ -3,7 +3,7 @@ One task that you will have to perform from time to time is doing zoning updates
 These are used to show what a parcel of land is being used for at a glance. These updates are few and far between and most of the files
 associated with them are all works in progress. 
 
-There are currently 3 townships that have a Zoning file associated with them, Hopewell, Clinton, and Pleasant Townships. All of the parcels are considered to be "Agricultural" until we recieve notice that it is no longer "Agricultural". This is to save time instead of having to dig through records to find out what each and every parcel of land in Seneca County is being used for.
+Map files have been created for each township in Seneca County and can be found in the "Projects" folder in the B:\ drive. All of the parcels are considered to be "Agricultural" until we recieve notice that it is no longer "Agricultural". This is to save time instead of having to do an audit of all the parcels in a township whenever we get a notification that a parcel is having its zoning type changed.
 
 To produce one of the zoning maps from scratch, you will need to pull in both the parcel layer for Seneca County and the Township layer
 that is in the Seneca County GeoLibrary.
