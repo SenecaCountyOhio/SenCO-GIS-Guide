@@ -6,7 +6,7 @@ associated with them are all works in progress.
 Map files have been created for each township in Seneca County and can be found in the "Projects" folder in the B:\ drive. All of the parcels are considered to be "Agricultural" until we recieve notice that it is no longer "Agricultural". This is to save time instead of having to do an audit of all the parcels in a township whenever we get a notification that a parcel is having its zoning type changed.
 
 To produce one of the zoning maps from scratch, you will need to pull in both the parcel layer for Seneca County and the Township layer
-that is in the Seneca County GeoLibrary.
+that is in the Seneca County GeoLibrary. You won't need to do this since all of the Zoning maps are already made, but just in case they get deleted, I'm going to outline the process that I used below.
 
 I then did a spatial join of both layers so that there was a layer that gave each parcel data on which Township it was located in. You can remove the other layers once you have finished the spatial join. 
 
