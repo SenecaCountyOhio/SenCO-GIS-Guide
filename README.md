@@ -29,7 +29,7 @@ access to Seneca County's GIS data and operations.
 - [Conservation Practices 25% Program](Guides/Con25.md)
 - [2020 Comprehensive Land Update](Guides/2020LandUpdate.md)
 - [Fostoria Community Map](Guides/Fostoria_Map.md)
-- [Zoning Updates](Guides/Township_Zoning_Updates.md)
+- [Township Zoning Updates](Guides/Township_Zoning_Updates.md)
 
 ## Authors & Acknowledgment
 Alex Vogelgesang - 2020   
