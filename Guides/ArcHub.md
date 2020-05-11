@@ -76,8 +76,7 @@ Some types of information bridge multiple category types, and so a layer can be 
 
 ### Planning & Development
 - Community Reinvestment Areas
-- Clinton Township Zoning
-- Pleasant Township Zoning
+- All Zoning Maps/Layers for the County
 
 ### Transportation
 - Road Centerlines
