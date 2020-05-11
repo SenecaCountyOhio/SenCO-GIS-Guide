@@ -86,9 +86,21 @@ multiple areas of reference.
 │   ├───Community Reinvestment Areas│
 │   ├───Landmarks
 │   └───Zoning
-│       ├───City of Tiffin
+│       ├───Adams Township
+|       ├───Bloom Township
+|       ├───City of Tiffin
 │       ├───Clinton Township
-│       └───Pleasant Township
+|       ├───Eden Township
+|       ├───Hopewell Township
+|       ├───Jackson Township
+|       ├───Liberty Township
+|       ├───Loudon Township
+│       ├───Pleasant Township
+|       ├───Reed Township
+|       ├───Scipio Township
+|       ├───Seneca Township
+|       └───Thompson Township
+|       
 │
 ├───Transportation
 │   ├───Data
