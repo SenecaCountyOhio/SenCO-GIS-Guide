@@ -99,5 +99,5 @@ Bruce Harris has been contracted to perform an audit of our Land Use info so
 that agricultural land information matches market land information. Market and
 land information have similar, yet differing land codes, and their analysis will
 identify areas that in the GIS layer that do not match what is in our IASWorld
-database. The land us GIS layer should be updated to correct any differences
+database. The land use GIS layer should be updated to correct any differences
 Bruce Harris identifies.
