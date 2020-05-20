@@ -1,3 +1,5 @@
+# Township Zoning Maps
+
 One task that you will have to perform from time to time is doing zoning updates for townships within Seneca county. This is something that will be done too often, but will have to be done by the GIS person.
 
 These are used to show what a parcel of land is being used for at a glance. These updates are few and far between and most of the files
