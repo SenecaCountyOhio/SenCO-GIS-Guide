@@ -1,4 +1,4 @@
-# Fostoria Community Mao
+# Fostoria Community Map
 The Fostoria visitor's center and Chamber of Commerce reached out to the Seneca County Auditor's office to create a useable community map that they could use to help people navigate around the city if they are new. They previously tried hiring outside contractors but were never pleased with the results.
 
 This map will be a work in progress that can be updated at any time if they see fit, and should never be marked as "complete".
