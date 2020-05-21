@@ -22,6 +22,6 @@ Now that all the parcels outside of the Township that you're update the zoning f
 
 Once you have that created, then you will need to do "Find and Replace" in the attributes table for the new column and replace all of the "< Null >" (without the spaces) fields with "Agricultural". Before you can add a column to the table, you have to go to the Edit tab and save your edits.
   
-Now you can select by attribute for the Parcel(s) you need to change and style them to show the different Zonings for the parcels in the township
+Now you can select by attribute for the Parcel(s) you need to change and style them to show the different Zonings for the parcels in the township. There is also a file with all of the Township layers pulled in to edit and have all the information in one place. 
 
 Note: Double check to make sure that the zoning changes were approved before making changes to the parcels. It's easy enough to change them back, but for the sake of efficiency, it's best to do.
