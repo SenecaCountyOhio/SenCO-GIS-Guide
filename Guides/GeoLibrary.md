@@ -84,7 +84,7 @@ multiple areas of reference.
 │   └───Tax Districts
 │
 ├───Planning & Development
-│   ├───Community Reinvestment Areas│
+│   ├───Community Reinvestment Areas
 │   ├───Landmarks
 │   └───Zoning
 │       ├───Adams Township
