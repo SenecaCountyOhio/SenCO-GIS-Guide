@@ -37,7 +37,7 @@ layers that are combined again to produce the final layer. For example, Ditches
 could be updated all at one time, and then recombined with Hydrography,
 recombined to the Land_General layer, and then recombined to the final
 Land_Combined layer. This process can be performed again and again without
-without having to manually re-digitize each affected feature in the final layer.
+having to manually re-digitize each affected feature in the final layer.
 
 ## Ditch/Hydrography
 Ditches and Hydrography are currently the same land code since they are valued
