@@ -231,7 +231,7 @@ financial resources.
 
 | Region        | Addressing Authority       | Contact Information             |
 | ------------- | -------------------------- | ------------------------------- |
-| Seneca County | Seneca County              | Brendan Cullen - GIS            |
+| Seneca County | Seneca County              | Alex Vogelgesang - GIS          |
 |               |                            | addressing@senecacountyohio.gov |
 |               |                            | (419) 447-0692                  |
 |               |                            | 109 S. Washington St. Suite 2206|
