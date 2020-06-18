@@ -1,6 +1,6 @@
 # Property Splits & Combinations
 
-When a parcel is split or combined, the land type acreage breakdown must be calculated for each parcel. To quickly do this, the Auditor's Office partners with a 3rd Party Vendor, [Bruce Harris](http://www.bruceharris.com/). Bruce Harris has a ArcGIS Extension called the "Farmland Calculator", which performs the analysis on any selected parcel.
+When a parcel is split or combined, the land type acreage breakdown must be calculated for each parcel. Parcel splits are started by the tax map office, who will approve or deny the split/combine, who will then send the parcel split or combination to the Auditor's office. To quickly do this, the Auditor's Office partners with a 3rd Party Vendor, [Bruce Harris](http://www.bruceharris.com/). Bruce Harris has a ArcGIS Extension called the "Farmland Calculator", which performs the analysis on any selected parcel.
 
 *Note: The extension is currently only available for ArcGIS Desktop.*
 
