@@ -19,7 +19,11 @@ basis. A script located at "B:\\Projects\\Automated Tasks\\Daily_Parcel_PULL" wi
 pull the parcel layer from the Tax Parcel App, create a backup of the now
 outdated parcel layer, and export a new feature class called "Current Parcels".
 The current parcels layer can be accessed at any time at "B:\\Projects\\Parcel
-Update\\Parcel_Update.gdb". This script is scheduled to run every night.
+Update\\Parcel_Update.gdb". This script was scheduled to run every night. Currently
+the previously mentioned script is not being used as the county engineer decided
+to change how the parcel layer is stored with the county. The new way of maintaining
+the parcel is under construction and should be created with the help of the county
+engineer.
 
 ## Data Integrity
 Parcels are a critical base layer for many GIS operations. Accuracy is of key
