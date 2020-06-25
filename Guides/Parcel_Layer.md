@@ -22,7 +22,7 @@ The current parcels layer can be accessed at any time at "B:\\Projects\\Parcel
 Update\\Parcel_Update.gdb". This script was scheduled to run every night. Currently
 the previously mentioned script is not being used as the county engineer decided
 to change how the parcel layer is stored with the county. The new way of maintaining
-the parcel is under construction and should be created with the help of the county
+the parcel layer is under construction and should be created with the help of the county
 engineer.
 
 ## Data Integrity
