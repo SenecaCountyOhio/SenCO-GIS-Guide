@@ -205,6 +205,8 @@ General Land Cover Types:
 |                   |      | may have Homesite < 1 Acre.                    |
 | Tillable	        | 2    | Land that is visibly cleared and used for      |
 |                   |      | agriculture or could be used for agriculture.  |
+| Residual          | 3    | Land that is not being used for agriculutural  |
+|                   |      | means, and is part of a homesite above 2 acres |
 | Woodland	        | 4	   | Land comprised of mainly Forest, not wind      |
 |                   |      | breaks.                                        |
 | Ditch/Hydrography	| 5	   | Land comprised of primarily water features     |
