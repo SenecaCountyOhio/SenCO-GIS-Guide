@@ -214,9 +214,10 @@ General Land Cover Types:
 |                   |      | Commercial or Industrial Involvement.          |
 | Secondary Site    | 7	   | Secondary Location for Main Concentration of   |
 |                   |      | Commercial or Industrial Involvement.          |
-| Right of Way	    | 9	   | Road or Rail Right of Way.                     |
-| Residual          | 10   | Land that is not being used for agriculutural  |
+| Residual          | 8    | Land that is not being used for agriculutural  |
 |                   |      | means, and is part of a homesite above 2 acres |
+| Right of Way	    | 9	   | Road or Rail Right of Way.                     |
+
 
 Land Program Types:
 
