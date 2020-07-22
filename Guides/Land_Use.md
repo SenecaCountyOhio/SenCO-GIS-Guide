@@ -205,8 +205,6 @@ General Land Cover Types:
 |                   |      | may have Homesite < 1 Acre.                    |
 | Tillable	        | 2    | Land that is visibly cleared and used for      |
 |                   |      | agriculture or could be used for agriculture.  |
-| Residual          | 3    | Land that is not being used for agriculutural  |
-|                   |      | means, and is part of a homesite above 2 acres |
 | Woodland	        | 4	   | Land comprised of mainly Forest, not wind      |
 |                   |      | breaks.                                        |
 | Ditch/Hydrography	| 5	   | Land comprised of primarily water features     |
@@ -217,6 +215,9 @@ General Land Cover Types:
 | Secondary Site    | 7	   | Secondary Location for Main Concentration of   |
 |                   |      | Commercial or Industrial Involvement.          |
 | Right of Way	    | 9	   | Road or Rail Right of Way.                     |
+|                   |      |                                                |
+| Residual          | 10   | Land that is not being used for agriculutural  |
+|                   |      | means, and is part of a homesite above 2 acres |
 
 Land Program Types:
 
