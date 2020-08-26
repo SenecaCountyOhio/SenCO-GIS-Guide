@@ -217,7 +217,8 @@ General Land Cover Types:
 | Secondary Site    | 7	   | Secondary Location for Main Concentration of   |
 |                   |      | Commercial or Industrial Involvement.          |
 | Residual          | 8    | Land that is not being used for agriculutural  |
-|                   |      | means, and is part of a homesite above 2 acres |
+|                   |      | means, or is part of a yard that is being mowed|
+|                   |      | that goes above the 1 acre homesite.           |
 | Right of Way	    | 9	   | Road or Rail Right of Way.                     |
 
 
