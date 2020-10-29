@@ -23,7 +23,9 @@ Update\\Parcel_Update.gdb". This script was scheduled to run every night. Curren
 the previously mentioned script is not being used as the county engineer decided
 to change how the parcel layer is stored with the county. The new way of maintaining
 the parcel layer is under construction and should be created with the help of the county
-engineer.
+engineer. There will be times where the County GIS person will be responsible for making 
+changes to the parcel layer as seen fit by the Auditor's office. The changes can range from 
+acreage changes to parcels to doing parcel splits and combos.
 
 ## Data Integrity
 Parcels are a critical base layer for many GIS operations. Accuracy is of key
