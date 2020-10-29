@@ -20,8 +20,8 @@ pull the parcel layer from the Tax Parcel App, create a backup of the now
 outdated parcel layer, and export a new feature class called "Current Parcels".
 The current parcels layer can be accessed at any time at "B:\\Projects\\Parcel
 Update\\Parcel_Update.gdb". This script was scheduled to run every night. Currently
-the previously mentioned script is not being used as the county engineer decided
-to change how the parcel layer is stored with the county. The new way of maintaining
+the previously mentioned script is not being used as the county engineer has
+changed how the parcel layer is stored with the county. The new way of maintaining
 the parcel layer is under construction and should be created with the help of the county
 engineer. There will be times where the County GIS person will be responsible for making 
 changes to the parcel layer as seen fit by the Auditor's office. The changes can range from 
