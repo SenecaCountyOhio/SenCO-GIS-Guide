@@ -11,4 +11,5 @@ Pivot Point provides an app that is currently installed on the Auditor's ipad. T
 Once a year, usually sometime in February, the permits for field inspections will need to be loaded onto the ipads. The process for that can be found [here](https://github.com/SenecaCountyOhio/Pivot_Point_Config_Scripts). 
 
 This process is to make sure that all of the permits from the previous year are loaded and ready to go for our field inspectors to check. This will only be done **ONCE** per year. The above link walks through how the data should be formatted to be sent to pivot point. 
+
 Pivot Point will also require PDFs of the property record cards to be sent to them of the commercial and residential work orders that are created. This is done through the scripts that are set up in IasWorld, then exported to list and downloaded and FTP'd to Pivot Point.
