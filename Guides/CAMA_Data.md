@@ -1,4 +1,4 @@
-#CAMA Data
+# CAMA Data
 
 
 Seneca County works with vendors who require certain data from our CAMA system to be sent to them every day. This data is then required to be zipped and sent to our website 
