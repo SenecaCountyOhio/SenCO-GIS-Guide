@@ -9,3 +9,8 @@ are 469738, 469741, and 469742. The data in these folders will need to be zipped
 
 There's scripts in place to grab each of the zip files for these data sets to sned through an FTP link to our webhost. The old zip files from the day before should be 
 deleted before making a new zipfile of the most recent data.
+
+
+
+
+
