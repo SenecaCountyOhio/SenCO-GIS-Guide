@@ -12,4 +12,4 @@ Once a year, usually sometime in February, the permits for field inspections wil
 
 This process is to make sure that all of the permits from the previous year are loaded and ready to go for our field inspectors to check. This will only be done **ONCE** per year. The above link walks through how the data should be formatted to be sent to pivot point. 
 
-Pivot Point will also require PDFs of the property record cards to be sent to them of the commercial and residential work orders that are created. This is done through the scripts that are set up in IasWorld, then exported to list and downloaded and FTP'd to Pivot Point.
+Pivot Point will also require PDFs of the property record cards to be sent to them of the commercial and residential work orders that are created. This is done through "Report and Job Sumbission" and the CA328OH (Residential) and CA329OH (Commercial) scrpits, then FTP'd to Pivot Point.
