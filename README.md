@@ -15,7 +15,7 @@ access to Seneca County's GIS data and operations.
 - [Seneca County GeoLibrary](Guides/GeoLibrary.md)
 - [Seneca County Land Use Layer](Guides/Land_Use.md)
 - [Seneca County Parcel Layer](Guides/Parcel_Layer.md)
-- [Seneca County CAMA Data](Guides/CAMA_Data)
+- [Seneca County CAMA Data](Guides/CAMA_Data.md)
 
 
 ## Annual Projects
