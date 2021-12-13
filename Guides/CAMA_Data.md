@@ -8,7 +8,7 @@ Nightly, a scripts called AA407 is run by TylerTech and is output in Y:\AT_LWATS
 then grab that zip file and send it to our website host.
 
 This is also done with real estate data, which has a script that also runs nightly, but is output at Y:\AT_NGAUTAM\BL320OH. There are 3 output files for this, the folders 
-are 469738, 469741, and 469742. The data in these folders will need to be zipped for scripts to grab and sent to our webhost.
+are the three most recent folders. The data in these folders will need to be zipped for scripts to grab and sent to our webhost.
 
 There's scripts in place to grab each of the zip files for these data sets to sned through an FTP link to our webhost. The old zip files from the day before should be 
 deleted before making a new zipfile of the most recent data.
