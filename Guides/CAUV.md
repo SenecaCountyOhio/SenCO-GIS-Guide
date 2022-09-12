@@ -11,7 +11,7 @@ In order to efficiently and accurately calculate the acreage breakdown, Seneca C
 
 When a property owner requests to be enrolled in the program, the County Auditor must first determine if the property qualifies for CAUV. One of the following requirements must be met in order to qualify:
 
-- Land Devoted Exclusively for Agricultural Use >= 10 Acres. (Figure 1)
+- Land Devoted Exclusively for Agricultural Use >= 5 Acres. (Figure 1)
 
 
 - Land enrolled in a Conservation Program. (Figure 2)
