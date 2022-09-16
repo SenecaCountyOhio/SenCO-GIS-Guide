@@ -35,6 +35,7 @@ access to Seneca County's GIS data and operations.
 
 ## Authors & Acknowledgment
 David Price - 2022 
+
 Alex Vogelgesang - 2020   
 Brendan Cullen - 2019  
 Alex Rodd - 2018
