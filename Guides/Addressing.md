@@ -225,13 +225,16 @@ County Auditor’s Office, Seneca County EMA, and all City and Village Addressin
 Authorities in order to be a productive use of Seneca County’s time and
 financial resources.
 
+##USPS 
+All new Addresses need to be reported to KD82P0@usps.gov, in order to keep the US postal service up to date on new addresses.
+
 ## Figures
 
 ### Figure 1 – Seneca County Addressing Authorities
 
 | Region        | Addressing Authority       | Contact Information             |
 | ------------- | -------------------------- | ------------------------------- |
-| Seneca County | Seneca County              | Alex Vogelgesang - GIS          |
+| Seneca County | Seneca County              | David L. Price - GIS          |
 |               |                            | addressing@senecacountyohio.gov |
 |               |                            | (419) 447-0692                  |
 |               |                            | 109 S. Washington St. Suite 2206|
