@@ -1,4 +1,7 @@
 # Current Agricultural Use Valuation Program
+##THIS METHOD IS NO LONGER USED DUE TO A LACK OF UNDERSTANDING FROM OUR TAXPAYERS (The people want paper forms...)
+
+David Price - 2022
 Brendan Cullen - 2019
 
 ## Purpose
