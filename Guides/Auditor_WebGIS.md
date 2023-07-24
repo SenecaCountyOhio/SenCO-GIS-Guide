@@ -15,3 +15,7 @@ The scripts that were used to send address and parcel data to our old website ma
 has been deactivated, but kept in-place in the B: drive. The only data that gets sent to 
 Pivot Point is CAMA data, and that is done nightly by TylerTech when they run the new CAMA
 data every night.
+
+
+A google analytics Monitor Dashboard was created to track user interaction with our GeoLibrary
+https://analytics.google.com/analytics/web/#/p395442249/reports/intelligenthome?params=_u..nav%3Dmaui
