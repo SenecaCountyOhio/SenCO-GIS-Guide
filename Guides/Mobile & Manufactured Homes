@@ -1,4 +1,4 @@
-# Seneca County Mobile Home Layer Creation Process
+#Seneca County Mobile Home Layer Creation Process#
 ## Objective
 The objective of this documentation is to guide users through the process of creating or updating the mobile home parcel layer for Seneca County.
 
@@ -21,5 +21,7 @@ The objective of this documentation is to guide users through the process of cre
   After the spatial join, review the new layer. It should contain parcels with mobile homes.
   Clean up this layer by removing any unnecessary attributes or resolving any conflicts (such as a mobile home that falls within multiple parcels).
 # Conclusion
-  This process should result in a "Seneca County Mobile Home Layer" that accurately identifies parcels containing mobile homes. The accuracy of this layer is dependent on the initial building footprints, parcel layers, and the accuracy of the IAS report. Always ensure these data sources are as accurate and up-to-date as possible.
+  This process should result in a "Seneca County Mobile Home Layer" that accurately identifies parcels containing mobile homes. 
+  The accuracy of this layer is dependent on the initial building footprints, parcel layers, and the accuracy of the IAS report. 
+  Always ensure these data sources are as accurate and up-to-date as possible.
 
