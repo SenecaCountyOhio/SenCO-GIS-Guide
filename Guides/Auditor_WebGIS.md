@@ -19,3 +19,7 @@ data every night.
 
 A google analytics Monitor Dashboard was created to track user interaction with our GeoLibrary
 https://analytics.google.com/analytics/web/#/p395442249/reports/intelligenthome?params=_u..nav%3Dmaui
+
+Summer of 23: 
+Search functionality was broadened to include MH_PIN (from the newly created MH_Layer) Parcel Owner or Parcel address.
+The Layer for these is hosted as Parcel_Address_LAyer and it should update continuously as sales, splits and other real estate transactions occur
