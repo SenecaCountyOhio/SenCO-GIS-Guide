@@ -1,15 +1,15 @@
 <h1>Seneca County Mobile Home Layer Creation Process</h1>
-## Objective
+## Objective ##
 The objective of this documentation is to guide users through the process of creating or updating the mobile home parcel layer for Seneca County.
 
-### Requirements:
+### Requirements: ##
 -Seneca County's most recent Parcel Layer
 -Seneca County's most recent Changer Finder All-Layer
 -An IAS Report that lists the parcel number for all Parks and Mobile/Manufactured Homes
 
 ## Process
-### Step 1: Identify Mobile Homes from IAS Report
-  Obtain a report from IAS which identifies mobile home parks and standalone manufactured homes in Seneca County.
+### Step 1: Identify Mobile Homes from the IAS Report
+  Obtain a report from IAS that identifies mobile home parks and standalone manufactured homes in Seneca County.
   Import this report into your GIS software. This may involve converting the report to a compatible format or geocoding addresses if not already associated with spatial data.
 ### Step 2: Create a New Layer for Mobile Homes
   From the IAS report data within your GIS software, create a new layer that includes only the mobile homes.
