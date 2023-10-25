@@ -226,7 +226,7 @@ Land Program Types:
 
 | Land Cover                      |Code| Description                       |
 | ------------------------------- |:--:| --------------------------------- |
-| Designated Forest Land	        | 0	 | Woodland that is in a Federal     |
+| Designated Forest Land	        | 99*| Woodland that is in a Federal     |
 |                                 |    | Program.                          |
 | Conservation Program Designated	| 23 | Land in Federal or State          |
 |                                 |    | Conservation Program.             |
@@ -239,6 +239,8 @@ Land Program Types:
 | Woodland – FMP	                | 4	 | Woodland in a Forest Management   |
 |                                 |    | Plan.                             |
 
+*Designated Forest Land Code 0 does not work with Bruce Harris Farm Calc. as any Null values are 
+pulled into Microsoft Access as 0 values. Code changed to 99 in the Land Combined Layer.
 
 
 ### Figure 3 – Feature Class Field Descriptions
