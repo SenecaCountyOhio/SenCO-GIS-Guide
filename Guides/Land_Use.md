@@ -1,4 +1,6 @@
 # Seneca County Land Code Dataset
+David L. Price - 2022
+
 Brendan Cullen - 2019
 
 ## Purpose
