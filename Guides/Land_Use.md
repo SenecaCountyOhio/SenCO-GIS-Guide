@@ -6,7 +6,7 @@ Brendan Cullen - 2019
 ## Purpose
 The purpose of this paper is to provide documentation of Seneca County’s Land
 Dataset and outline improvements made to the structure and maintenance of the
-dataset in 2019.
+dataset in 2013.
 
 ## Background
 Land information (i.e. the cover and use of land) is vital to the daily
