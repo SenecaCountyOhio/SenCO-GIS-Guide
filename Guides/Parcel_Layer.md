@@ -23,6 +23,8 @@ Update\\Parcel_Update.gdb". This script is scheduled to run every day. There wil
 will be responsible for making changes to the parcel layer as seen fit by the Auditor's office. The changes can range from 
 acreage changes to parcels to doing parcel splits and combos.
 
+##Currently the script is inactive as I preferred doing it manually, it takes two seconds and then you can add it to the ArcMap Land_Use as well for farmland calc.
+
 ## Data Integrity
 Parcels are a critical base layer for many GIS operations. Accuracy is of key
 importance due to the analytical nature of CAUV calculations and property
