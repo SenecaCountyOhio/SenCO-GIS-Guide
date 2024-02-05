@@ -11,5 +11,3 @@ of the data they need is very rarely updated. Currently, only Addresses are
 updated monthly.
 
 
-## NEW EMA BASE DISTRICTS FOUND AT:
-B:\ArcPro Projects\Pro_EMS_Maps\EMS_Fire_Police
